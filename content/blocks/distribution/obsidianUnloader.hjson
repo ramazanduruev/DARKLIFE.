@@ -1,0 +1,10 @@
+type: Unloader
+health: 70
+capacity: 0
+
+requirements: [
+
+] 
+category: effect
+
+

@@ -1,0 +1,4 @@
+type: floor,
+name: puzzleSlateFloor,
+variants: 3,
+wall: slateWall

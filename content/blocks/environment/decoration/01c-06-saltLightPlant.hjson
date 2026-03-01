@@ -1,0 +1,11 @@
+type: LightBlock
+
+health: 1
+size: 1
+requirements: [
+ ]
+squareSprite: false
+brightness: 0.9
+radius: 15
+drawTeamOverlay: false
+researchCostMultiplier: 0.8

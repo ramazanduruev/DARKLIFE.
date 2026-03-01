@@ -1,0 +1,7 @@
+type: floor,
+name: magmaClayFloor,
+variants: 3,
+wall: slateWall
+attributes: {
+heat: 0.10
+}

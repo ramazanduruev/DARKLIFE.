@@ -1,0 +1,94 @@
+{
+  ammoTypes:{
+    flesh:{
+      x: 0
+      y: -6
+      damage: 15
+      buildingDamageMultiplier: 0.8
+      hitColor: C46868FF
+      hitEffect: neoplasiaSmoke
+      shootEffect: neoplasmHeal
+      width: 7
+      height: 5
+      range: 140
+      speed: 5
+      type: BasicBulletType
+      trailColor: C46868FF
+				  	trailChance: -1
+				  	trailWidth: 3.5
+					  trailLength: 20
+       sprite: mo-fleshB
+  }
+ }
+shoot: {
+ type: ShootBarrel
+ shotDelay: 3
+    barrels: [
+    1, -6, 0,
+    0, -6, 0,
+    0, -6, 0,
+    -1, -6, 0
+    ]
+}
+   requirements: [
+    flesh/40
+]
+
+consumes: {
+  }
+
+  reload: 60
+  range: 140
+  shootEffect: casing1
+  category: turret
+  health: 540
+  size: 3
+  itemCapacity: 8
+  hasLiquids: false
+  type: ItemTurret
+  shootSound: shootMissilePlasma
+  outlineColor: 54473BFF
+  drawTeamOverlay: false
+
+  drawer: {
+      type: DrawTurret
+      basePrefix: rotten-
+      parts: [
+      {
+      type: RegionPart
+      suffix: -side
+      under: true
+      mirror: true
+      heatProgress: recoil
+      progress: warmup
+      moveRot: 5
+      layerOffset: -0.02
+      moves: [
+      {
+      type: PartMove
+      rot: 5
+      }
+      ]
+      children: [
+            {
+            type: RegionPart
+            color: 54473BFF
+            suffix: -side-glow
+            colorTo: B9008EFF
+            progress: warmup
+            outline: false
+            layerOffset: -0.02
+            }
+            ]
+      }
+      {
+      type: RegionPart
+      suffix: -middle
+      progress: recoil
+      moveY: 2.5
+      heatProgress: recoil
+      layerOffset: -0.02
+      }
+      ]
+      }
+}

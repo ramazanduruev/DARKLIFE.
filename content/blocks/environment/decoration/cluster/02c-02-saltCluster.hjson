@@ -1,0 +1,13 @@
+type: LightBlock
+
+health: 1200
+size: 3
+requirements: [
+ ]
+squareSprite: false
+brightness: 0.9
+radius: 30
+drawTeamOverlay: false
+researchCostMultiplier: 0.8
+hasShadow: false
+buildVisibility: editorOnly

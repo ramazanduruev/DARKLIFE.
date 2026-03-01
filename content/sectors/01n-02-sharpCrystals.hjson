@@ -1,0 +1,15 @@
+captureWave: 8
+planet: cilistis
+sector: 96
+research: 01b-01-core-capsule
+difficulty: 1
+alwaysUnlocked: false
+research: {
+parent: 01n-01-abandonedBase
+objectives: [
+{
+type: SectorComplete
+preset: 01n-01-abandonedBase
+  }
+ ]
+}

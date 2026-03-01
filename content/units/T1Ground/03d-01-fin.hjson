@@ -1,0 +1,41 @@
+type: mech
+speed: 0.7
+hitSize: 12
+health: 150
+mechSideSway: 0.25
+outlineColor: 171720FF
+outlineRadius: 3
+weapons: [
+{
+name: 03d-01-fin-weapon
+x: 0
+y: 0
+rotate: true
+rotateSpeed: 4
+reload: 30
+recoil: 1 
+shootSound: shootDuo
+inaccuracy: 12
+alternate: false
+mirror: false
+ejectEffect: regenParticle
+bullet: {
+type: BasicBulletType
+length: 6
+width: 6
+speed: 2
+damage: 12
+lifetime: 45
+}
+}
+]
+research: {
+  parent: 02k-01-constructor
+  objectives: [
+{
+type: SectorComplete
+preset: 01n-02-sharpCrystals
+  }
+ ]
+}
+researchCostMultiplier: 0.2

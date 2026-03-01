@@ -1,0 +1,4 @@
+variants: 3
+  itemDrop: crystal
+  name: crystalOre
+  type: OreBlock

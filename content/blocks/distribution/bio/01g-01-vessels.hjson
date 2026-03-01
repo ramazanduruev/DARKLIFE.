@@ -1,0 +1,19 @@
+  type: Duct
+name: vessels
+drawTeamOverlay: false
+update: true
+hasItems: true
+itemCapacity: 1
+isDuct: true
+underBullets: false
+  category: distribution
+  speed: 4
+  displayedSpeed: 1   
+  health: 360
+  acceptsItems: true
+  requirements: [
+flesh/150
+]
+
+researchCostMultiplier: 1
+

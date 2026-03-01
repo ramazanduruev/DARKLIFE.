@@ -1,0 +1,13 @@
+
+type: Router
+category: distribution
+health: 350
+size: 1
+capacity: 2
+drawTeamOverlay: false
+requirements: [
+flesh/150
+]
+
+researchCostMultiplier: 0.3
+

@@ -1,0 +1,4 @@
+variants: 6
+  itemDrop: obsidian
+  name: obsidianOre
+  type: OreBlock

@@ -1,0 +1,67 @@
+type: flying
+name: builder
+health: 40
+alwaysUnlocked: false
+isEnemy: true
+flying: true
+accel: 0.04
+drag: 0.12
+speed: 7
+rotateSpeed: 4
+armor: 1
+outlineColor: 452424FF
+outlineRadius: 2
+engineSize : 0
+engineOffset : 0
+
+abilities: [
+        {
+        effect:{
+        type: ParticleEffect 
+        colorFrom: 422445FF
+        colorTo: 422445FF
+        particles: 1
+        cone: 360
+        length: 0
+        baseLength: 0
+        lightScl: 2
+        lightOpacity: 2
+        spin: 0
+        sizeFrom: 2
+        sizeTo: 0 
+        offset: 0
+        lightScl: 1.5
+        lightOpacity: 2
+        }
+        type : MoveEffectAbility
+        minVelocity: 0
+        interval: 0.0000010
+        y : 0
+        x : 0
+    }
+]
+weapons: [
+  {
+    name: none
+    x: 0
+    y: 0
+    mirror: false
+    shootEffect: sparkShoot
+    smokeEffect: shootSmallSmoke
+    reload: 50
+    inaccuracy: 15
+    bullet: {
+      type: MissileBulletType
+      damage: 15
+      splashDamage: 6
+      splashDamageRadius: 7
+      sideAngle: 45
+      sideWidth: 8
+      sideLength: 8
+      hitEffect: fluxVapor
+      despawnEffect: blastExplosion
+      lifeTime: 135
+      shootSound: shootFlesh
+}
+}
+]

@@ -1,0 +1,14 @@
+{
+	color: 80366BFF
+	hardness: 1
+    research: crystal
+	charge: 0
+	explosiveness: 0
+	flammability: 0
+	radioactivity: 0
+	cost: 0.2
+	hiddenOnPlanets: [
+		serpulo,
+		erekir
+	]
+}
