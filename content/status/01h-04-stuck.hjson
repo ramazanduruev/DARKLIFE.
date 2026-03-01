@@ -1,0 +1,17 @@
+speedMultiplier: 0.10
+reloadMultiplier: 0
+healthMultiplier: 3.0
+damageMultiplier: 1.5
+disarm: true
+statusDuartion: 180
+effect: {
+        type: ParticleEffect
+        colorFrom: a4e6f0
+        colorTo: ae628620
+        particles: 2
+        lifetime: 600
+        length: 30
+        int: 000202
+        sizeFrom: 2.6
+        sizeTo: 0
+}

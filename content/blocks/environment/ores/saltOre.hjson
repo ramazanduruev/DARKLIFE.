@@ -1,0 +1,4 @@
+variants: 3
+  itemDrop: solidSalt
+  name: saltOre
+  type: OreBlock

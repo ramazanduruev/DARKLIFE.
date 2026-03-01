@@ -1,0 +1,4 @@
+type: floor,
+name: underwaterStone,
+variants: 5,
+wall: stoneWall

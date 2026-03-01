@@ -1,0 +1,19 @@
+
+type: RegenProjector
+health: 180
+size: 1
+armor: 2
+solid: true
+update: true
+hasPower: false
+range: 2
+healPercent: 0.01
+healEffect: healWave
+category: defense
+requirements: [
+  bone/8
+]
+research: {
+  parent: 01o-05-weakBoneWall
+}
+researchCostMultiplier: 1.5

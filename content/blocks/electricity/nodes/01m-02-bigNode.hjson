@@ -1,0 +1,34 @@
+{
+  type: PowerNode
+  size: 2
+  health: 90
+  laserRange: 14
+  maxNodes: 10
+  requirements: [
+  obsidian/30
+  steel/6
+  amethyst/4
+  ]
+  category: power
+  powerCapacity: 0
+  laserColor1: EAB678FF
+  laserColor2: D4806BFF
+  laserScale: 0.5
+  researchCostMultiplier: 0.2
+  research: {
+    planet: cilistis
+	parent: 01m-01-node
+	requirements: [
+	obsidian/2650
+ steel/2000
+ crystal/1680
+ amethyst/1680
+	]
+objectives: [
+  {
+  type: SectorComplete
+  preset: 01n-07-fleshStudyBase
+  }
+  ]
+}
+}

@@ -1,0 +1,19 @@
+{
+  type: conduit
+  category: liquid
+  health: 30
+  liquidPressure: 2
+  requirements: [
+    obsidian/3
+    crystal/2
+   ]
+  bridgeReplacement: 01g-04-liquidBridge
+research: {
+      parent: 01b-01-core-capsule
+       requirements: [
+       obsidian/400
+       crystal/420
+       steel/20
+  ]
+ }
+}

@@ -1,0 +1,4 @@
+type: floor,
+name: techSlateFloor,
+variants: 4,
+wall: slateWall

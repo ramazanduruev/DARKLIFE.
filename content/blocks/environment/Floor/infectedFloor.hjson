@@ -1,0 +1,4 @@
+type: floor,
+name: infectedFloor,
+variants: 7,
+wall: infectedWall

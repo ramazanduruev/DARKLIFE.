@@ -1,0 +1,15 @@
+captureWave: 17
+planet: cilistis
+sector: 1
+research: 01b-01-core-capsule
+difficulty: 8
+alwaysUnlocked: false
+research: {
+parent: 01n-06-plainOfFlesh
+objectives: [
+{
+type: SectorComplete
+preset: 01n-06-plainOfFlesh
+  }
+ ]
+}

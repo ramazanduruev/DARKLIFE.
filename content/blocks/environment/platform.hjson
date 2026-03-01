@@ -1,0 +1,13 @@
+type: Floor
+name: backfill
+description: Drains liquids and also increases the running speed of units by 20 percent
+variants: 4
+requirements: [
+  clay/16
+  iron/6
+]
+category: effect
+speedMultiplier: 1.2
+dragMultiplier: 1.0 
+fillsTile: true
+isLiquid: false

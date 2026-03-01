@@ -1,0 +1,15 @@
+captureWave: 21
+planet: cilistis
+sector: 56
+research: 01b-01-core-capsule
+difficulty: 6
+alwaysUnlocked: false
+research: {
+parent: 01n-05-hotShore
+objectives: [
+{
+type: SectorComplete
+preset: 01n-05-hotShore
+  }
+ ]
+}

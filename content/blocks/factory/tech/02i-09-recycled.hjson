@@ -1,0 +1,68 @@
+type: Separator
+size: 2
+category: crafting
+hasLiquids: false
+hasPower: true
+hasItems: true
+itemCapacity: 50
+craftTime: 40
+squareSprite: false
+
+consumes: {
+  power: 2.0
+  items: [
+    bone/1
+  ]
+}
+
+results: [
+  bone/35
+  sharpBone/14
+  flesh/1
+]
+
+requirements: [
+obsidian/60
+steel/40
+flesh/200
+crystal/20
+amethyst/10
+]
+
+research: {
+    planet: cilistis
+	parent: 02i-01-incubator
+	requirements: [
+	obsidian/2650
+ steel/2000
+ crystal/1680
+ amethyst/1680
+	]
+  objectives: [
+  {
+  type: SectorComplete
+  preset: 01n-08-dispatchBase
+  }
+  ]
+}
+drawer: {
+      type: DrawMulti
+      drawers: [	  
+          {
+          type: DrawRegion
+		  suffix: -bottom
+          }
+      {
+		  type: DrawRegion
+		  suffix: -rotator
+		  spinSprite: true
+		  rotateSpeed: 3
+    x: 0
+    y: 0
+    layerOffset: -0.001
+		  }
+		  {
+		  type: DrawDefault
+		  }
+      ]
+    }

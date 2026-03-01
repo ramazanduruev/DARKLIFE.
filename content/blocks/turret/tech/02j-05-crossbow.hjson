@@ -1,0 +1,61 @@
+{
+  ammoTypes:{
+    sharpBone:{
+      x: 0
+      y: -6
+      damage: 50
+      buildingDamageMultiplier: 0.7
+      lifetime: 20
+      hitColor: 534469FF
+      hitEffect: lightningCharge
+      shootEffect: airBubble
+      knockback: 14
+      width: 8
+      height: 14
+      speed: 9
+      type: BasicBulletType
+      trailColor: 534469FF
+				  	trailChance: -1
+				  	trailWidth: 0.5
+					  trailLength: 3
+        status: 01h-04-stuck
+					  statusDuration: 120
+  }
+ }
+   requirements: [
+    obsidian/40
+]
+consumes: {
+}
+  reload: 240
+  range: 165
+  shootEffect: casing1
+  category: turret
+  health: 230
+  size: 2
+  itemCapacity: 15
+  hasLiquids: false
+  type: ItemTurret
+  shootSound: crossbow
+  outlineColor: 272736FF
+  drawTeamOverlay: false
+
+drawer: {
+  type: DrawTurret
+  basePrefix: smallStone-
+  parts: [
+    {
+      suffix: "-side-left"
+      progress: warmup
+      moveX: -4.5
+      layerOffset: -0.01
+    }
+    {
+      suffix: "-side-right"
+      progress: warmup
+      moveX: 4.5
+      layerOffset: -0.01
+    }
+  ]
+}
+}

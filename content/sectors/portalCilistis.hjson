@@ -1,0 +1,15 @@
+
+planet: erekir
+sector: 15
+research: core-bastion
+difficulty: 4
+alwaysUnlocked: false
+research: {
+parent: onset
+objectives: [
+{
+type: SectorComplete
+preset: 01n-08-dispatchBase
+  }
+ ]
+}

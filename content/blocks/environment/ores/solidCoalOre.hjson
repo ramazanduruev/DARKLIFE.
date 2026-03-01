@@ -1,0 +1,4 @@
+variants: 3
+  itemDrop: solidCoal
+  name: solidCoalOre
+  type: OreBlock

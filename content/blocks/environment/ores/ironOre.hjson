@@ -1,0 +1,4 @@
+variants: 3
+  itemDrop: iron
+  name: ironOre
+  type: OreBlock
