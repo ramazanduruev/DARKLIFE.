@@ -1,0 +1,15 @@
+captureWave: 30
+planet: cilistis
+sector: 38
+research: 01b-01-core-capsule
+difficulty: 2
+alwaysUnlocked: false
+research: {
+parent: 01n-04-deathPassage
+objectives: [
+{
+type: SectorComplete
+preset: 01n-04-deathPassage
+  }
+ ]
+}

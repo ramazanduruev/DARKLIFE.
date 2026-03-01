@@ -1,0 +1,32 @@
+
+type: flying
+health: 80
+armor: 8
+speed: 1.4
+accel: 0.4
+drag: 0.4
+flying: true
+hitSize: 8
+itemCapacity: 16
+mineSpeed: 3.0
+mineTier: 1
+controller: minerAI
+outlineColor: 171720FF
+outlineRadius: 3
+mineItems: [
+obsidian,
+solidSalt,
+crystal
+]
+defaultCommand: mine
+targetable: false
+research: {
+  parent: 02k-01-constructor
+ objectives: [
+  {
+  type: SectorComplete
+  preset: 01n-07-fleshStudyBase
+  }
+]
+}
+researchCostMultiplier: 4.0

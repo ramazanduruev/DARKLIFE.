@@ -1,0 +1,22 @@
+{
+name: "mo"
+displayName: "DarkLife"
+description:
+  '''
+  This mod add new planet and also adds new evolution and infection mechanics 
+
+  Developer: Votak (abzobua)
+  Helper: Tekta_Ru
+
+  language
+  English
+  Русский
+  '''
+author: "Votak"
+version: "0.9.1"
+minGameVersion: 159
+subtitle: "beta v0.9.1"
+hidden: false
+main: "main.js"
+}
+

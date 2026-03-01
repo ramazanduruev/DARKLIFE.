@@ -1,0 +1,16 @@
+{
+  type: wall
+  health: 810
+  size: 2
+  drawTeamOverlay: false
+  researchCostMultiplier: 1
+  chanceDeflect: 3
+  flashHit: true
+  requirements:[
+  amethyst/24
+  ]
+  research: {
+  parent: 01o-03-weakAmethystWall
+}
+  category: defense
+}

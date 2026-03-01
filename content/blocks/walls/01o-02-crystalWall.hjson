@@ -1,0 +1,14 @@
+{
+  type: wall
+  health: 660
+  size: 2
+  drawTeamOverlay: false
+  researchCostMultiplier: 1
+  requirements:[
+  crystal/24
+  ]
+  research: {
+  parent: 01o-01-weakCrystalWall
+}
+  category: defense
+}

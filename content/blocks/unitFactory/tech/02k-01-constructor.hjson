@@ -1,0 +1,43 @@
+{
+  type: unitFactory
+  health: 600
+  size: 3
+  researchCostMultiplier: 0.2
+  plans: [
+    {
+      unit: "03d-01-fin"
+        requirements: [
+           obsidian/40
+           solidSalt/50
+   ]
+      time: 1900
+     }
+    {
+      unit: "04d-01-inid"
+        requirements: [
+           obsidian/20
+           flesh/30
+           steel/10
+   ]
+      time: 1460
+     }
+     {
+      unit: "05d-01-miner"
+        requirements: [
+           obsidian/20
+           clay/4
+           steel/4
+   ]
+      time: 800
+     }
+]
+
+requirements: [
+    obsidian/180
+    solidSalt/120
+ ]
+  category: units
+  research: {
+  parent: 01b-01-core-capsule
+}
+}

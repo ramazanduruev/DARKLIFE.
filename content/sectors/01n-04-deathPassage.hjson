@@ -1,0 +1,15 @@
+captureWave: 15
+planet: cilistis
+sector: 14
+research: 01b-01-core-capsule
+difficulty: 4
+alwaysUnlocked: false
+research: {
+parent: 01n-03-deadlyIsland
+objectives: [
+{
+type: SectorComplete
+preset: 01n-03-deadlyIsland
+  }
+ ]
+}

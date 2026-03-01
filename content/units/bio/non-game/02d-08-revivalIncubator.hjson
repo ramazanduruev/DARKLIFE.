@@ -1,0 +1,48 @@
+
+type: mech
+name: revivalIncubator
+speed: 0
+hitSize: 12
+health: 60
+mechSideSway: 0.25
+outlineRadius: 0
+outlineColor: 663636FF
+deathExplosionDamage: 0
+deathExplosionRadius: 0
+abilities: [
+{
+type: UnitSpawnAbility
+unit: 02d-07-revival
+spawnX: 0
+spawnY: 0
+spawnTime: 900
+layerOffset: -0.001
+spawnEffect: none
+}
+{
+    type: StatusFieldAbility
+    effect: 01h-03-quickDeath
+    duration: 100
+    reload: 1040
+    applyTarget: self
+  }
+{
+    type: StatusFieldAbility
+    reload: 40
+    effect: none 
+    activeEffect: {
+      type: ParticleEffect
+      particles: 5
+      lifetime: 120
+      length: 12 
+      baseLength: 5 
+      sizeFrom: 2.5
+      sizeTo: 0
+      colorFrom: 8C4A4AFF
+      colorTo: 8C4A4AFF
+      line: false
+      cone: 360
+      interp: circleOut
+    }
+  }
+]

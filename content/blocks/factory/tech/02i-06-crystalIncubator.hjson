@@ -1,0 +1,81 @@
+type: Separator
+size: 5
+category: crafting
+hasLiquids: true
+hasPower: true
+hasItems: true
+itemCapacity: 30
+liquidCapacity: 300
+craftTime: 80
+squareSprite: false
+
+consumes: {
+  power: 2.0
+  liquid: {
+    liquid: "01p-01-infectedWater"
+    amount: 0.5
+  }
+}
+
+results: [
+  crystal/18
+  amethyst/12
+]
+
+requirements: [
+obsidian/60
+steel/40
+flesh/200
+crystal/20
+amethyst/10
+]
+
+research: {
+    planet: cilistis
+	parent: 02i-04-forge
+	requirements: [
+	obsidian/2650
+ steel/2000
+ crystal/1680
+ amethyst/1680
+	]
+  objectives: [
+  {
+  type: SectorComplete
+  preset: 01n-08-dispatchBase
+  }
+  ]
+}
+
+drawer: {
+      type: DrawMulti
+      drawers: [	  
+          {
+          type: DrawRegion
+		  suffix: -bottom
+          }
+		  {
+type: DrawPlasma
+plasmas: 4
+plasma1: AF6EF053
+plasma2: 7C53A67A
+plasma3: 14B89151
+plasma4: 00FFC460
+layerOffset: -0.01
+}
+{
+      type: DrawGlowRegion
+      suffix: "-gloww"
+      color: "00FFC4FF"
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 01p-01-infectedWater
+      alpha: 0.7
+      padding: 2
+    }
+		  {
+		  type: DrawDefault
+		  }
+      ]
+    }

@@ -1,0 +1,15 @@
+captureWave: 24
+planet: cilistis
+sector: 34
+research: 01b-01-core-capsule
+difficulty: 1
+alwaysUnlocked: false
+research: {
+parent: 01n-02-sharpCrystals
+objectives: [
+{
+type: SectorComplete
+preset: 01n-02-sharpCrystals
+  }
+ ]
+}

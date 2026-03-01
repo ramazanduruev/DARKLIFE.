@@ -1,0 +1,27 @@
+  type: DuctBridge
+update: true
+hasItems: true
+itemCapacity: 1
+isDuct: true
+underBullets: false
+  category: distribution
+  size: 1
+  health: 35
+  range: 6
+  transportTime: 1
+  hasPower: false
+
+  requirements: [
+      obsidian/35
+  ]
+
+  researchCostMultiplier: 0.3
+  research: {
+      parent: 02g-02-crossroads
+      planet: cilistis
+       requirements: [
+         obsidian/600
+         solidSalt/200
+         crystal/20
+  ]
+ }

@@ -1,0 +1,4 @@
+type: floor,
+name: crystalNFloor,
+variants: 5,
+wall: crystalWall

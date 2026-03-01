@@ -1,0 +1,98 @@
+type: flying
+speed: 2.5
+range: 10
+flying: true
+health: 180
+armor: 2
+buildSpeed: 3
+mineSpeed: 3
+mineTier: 1
+itemCapacity: 40
+hitSize: 14
+outlineColor: 171720FF
+outlineRadius: 3
+engineOffset : -1.5
+canDrown: false
+engineSize : 0
+useEngineElevation : false
+accel : 0.4
+shadowElevation : 0.2
+targetable: true
+hittable: true
+lightRadius: 30
+lightOpacity: 0.6
+weapons: [
+  {
+    name: none
+    x: 0
+    y: 0
+    rotate: false
+    reload: 60
+    recoil: 1
+    shootSound: shootSalvo
+    inaccuracy: 0
+    alternate: true
+    mirror: false
+    layerOffset: 0.01
+    bullet: {
+      type: BasicBulletType
+      buildingDamageMultiplier: 0.01
+      length: 8
+      width: 8
+      speed: 3
+      damage: 20
+      lifetime: 30
+      trailEffect: shootSmokeSquareSparse
+      color: FACAD9FF
+      trailInterval: 2
+      trailParam: 3
+      trailWidth: 2
+      trailLength: 6
+      trailColor: FACAD9FF
+      homingPower: 0.08
+      homingRange: 80
+      homingDelay: 3
+    }
+  }
+]
+abilities: [
+        {
+        effect:{
+        type: ParticleEffect 
+        colorFrom: 6FA9A9FF
+        colorTo: 6FA9A9FF
+        particles: 1
+        cone: 360
+        length: 0
+        baseLength: 0
+        lightScl: 2
+        lightOpacity: 2
+        spin: 0
+        sizeFrom: 2
+        sizeTo: 0 
+        offset: 0
+        lightScl: 1.5
+        lightOpacity: 2
+        }
+        type : MoveEffectAbility
+        minVelocity: 0
+        interval: 0.0000010
+        y : 0
+        x : 0
+    }
+]
+
+engines: [
+  {
+    x: 6
+    y: -3
+    radius: 3
+    rotation: -45
+  }
+  {
+    x: -6
+    y: -3
+    radius: 3
+    rotation: -55
+  }
+]
