@@ -1,0 +1,4 @@
+type: floor,
+name: cubeSlateFloor,
+variants: 4,
+wall: slateWall

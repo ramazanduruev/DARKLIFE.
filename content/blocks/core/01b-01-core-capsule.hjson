@@ -1,0 +1,23 @@
+type: CoreBlock
+description: helps to cope with high pressure
+size: 3
+health: 1750
+armor: 2
+unitType: 01d-01-memory
+requirements: [
+obsidian/350
+]
+requiresCoreZone: false
+incinerateNonBuildable: true
+category: effect
+isFirstTier: true
+squareSprite: false
+alwaysUnlocked: true
+itemCapacity: 600
+unitCapModifier: 15
+research: {
+  planet: cilistis
+  root: true
+  name: technology
+  requiresUnlock: true
+}

@@ -1,0 +1,19 @@
+type: CoreBlock
+name: brain
+description: heart of parasites
+size: 3
+health: 2300
+armor: 2
+unitType: 02d-01-builder
+requirements: [
+]
+requiresCoreZone: true
+incinerateNonBuildable: true
+category: effect
+isFirstTier: true
+squareSprite: false
+alwaysUnlocked: true
+itemCapacity: 1400
+unitCapModifier: 40
+drawTeamOverlay: false
+buildVisibility: editorOnly

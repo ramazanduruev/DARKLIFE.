@@ -1,0 +1,20 @@
+{
+  type: wall
+  health: 220
+  size: 1
+  drawTeamOverlay: false
+  researchCostMultiplier: 0.8
+  requirements:[
+  crystal/8
+  ]
+  research: {
+  parent: 01b-01-core-capsule
+  objectives: [
+{
+type: SectorComplete
+preset: 01n-03-contaminatedLands
+  }
+ ]
+}
+  category: defense
+}

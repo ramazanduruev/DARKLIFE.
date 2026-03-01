@@ -1,0 +1,4 @@
+type: Prop
+name: crystalStone
+variants: 3
+breakSound: rock-crush

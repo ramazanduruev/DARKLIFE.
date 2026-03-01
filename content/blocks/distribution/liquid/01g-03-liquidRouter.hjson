@@ -1,0 +1,20 @@
+{
+  type: LiquidRouter
+  health: 30
+  hasPower: false
+  placeableLiquid: true
+  liquidPressure: 6
+  category: liquid
+  requirements: [
+  obsidian/16
+  iron/8
+  ]
+       research: {
+        parent: 01g-02-liquidPipe
+        requirements: [
+        obsidian/200
+        crystal/120
+        iron/80
+  ]
+}
+}

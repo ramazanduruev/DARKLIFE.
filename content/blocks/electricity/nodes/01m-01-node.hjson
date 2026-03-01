@@ -1,0 +1,22 @@
+{
+  type: PowerNode
+  size: 1
+  health: 30
+  laserRange: 8
+  maxNodes: 8
+  requirements: [
+  obsidian/20
+  ]
+  category: power
+  powerCapacity: 0
+  laserColor1: EAB678FF
+  laserColor2: D4806BFF
+  laserScale: 0.5
+  researchCostMultiplier: 0.2
+  research: {
+      parent: 01b-01-core-capsule
+       requirements: [
+       obsidian/40
+  ]
+ }
+}

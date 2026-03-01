@@ -1,0 +1,433 @@
+planet.ln-luntun.name = люнтун
+
+planet.ln-Ubase.name = твоя база
+
+planet.ln-1-blackHole.name = черная дыра?
+
+planet.ln-breakPlanet.name = разрушенная планета
+
+item.ln-greenwe.name = гринви
+item.ln-greenwe.description = гринви это твой первый ресурс
+
+item.ln-metal.name = металл
+item.ln-metal.description = металл помогает усилять и строить мощные постройки
+
+item.ln-gold.name = золото
+item.ln-gold.description = золото._. хороший ресурс для создания крепких юнитов
+
+item.ln-magma.name = магма
+item.ln-magma.description = очень горячий предмет
+
+item.ln-powerPlate.name = энерго плита
+item.ln-powerPlate.description = энерго плита хранит в себе энергию
+
+item.ln-radioactiveCoal.name = радиактивный уголь
+item.ln-radioactiveCoal.description = ядерка?
+
+item.ln-uran.name = уран
+item.ln-uran.description = слишком много радиации
+
+item.ln-superCoal.name = супер уголь
+item.ln-superCoal.description = этот уголь очень хорошо горит
+
+item.ln-ice.name = лёд
+item.ln-ice.description = холодный ресурс
+
+item.ln-nanoMatherial.name = нано материал
+item.ln-nanoMatherial.description = гринви? металл? золото? что это?
+
+item.ln-hotGraphite.name = горячий графит
+item.ln-hotGraphite.description = ты знаешь что оно делает и для чего? он очень горячий
+
+item.ln-closedSoul.name = закрытая душа
+item.ln-closedSoul.description = мы никогда не узнаем что это
+
+item.ln-tuntium.name = тунтиум
+item.ln-tuntium.description = астероидная руда
+
+item.ln-cintrium.name = цинтриум
+item.ln-cintrium.description = астероидная руда
+
+item.ln-drawingTierOne.name = чертеж первого уровня
+item.ln-drawingTierOne.description = чертежи помогают исследовать технологии
+
+item.ln-drawingTierTwo.name = чертеж второго уровня
+item.ln-drawingTierTwo.description = этот прокаченный чертеж помогает изучать более лучшие технологии
+
+item.ln-drawingTierThree.name = чертеж третьего уровня
+item.ln-drawingTierThree.description = чертеж высшего уровня помогает изучать технологии
+
+item.ln-quartzCrystal.name = кварцовый кристалл
+item.ln-drawingTierTwo.description = его можно найти на астероидах
+
+
+
+block.ln-colonia.name = колонизатор
+block.ln-colonia.description = твое первое ядро
+
+block.ln-megaColonia.name = большой колонизатор
+block.ln-megaColonia.description = прочное и вместительное ядро
+
+block.ln-center.name = центр
+block.ln-center.description = ваше первое ядро
+
+block.ln-regenerator.name = регенератор
+block.ln-regenerator.description = Чинит твои постройки
+
+block.ln-healer.name = хиллер
+block.ln-healer.description = чинит юнитов поблизости
+
+block.ln-barrier.name = барьер
+block.ln-barrier.description = у этой структуры электро щит который может восстанавливатся
+
+block.ln-light.name = светильник
+block.ln-light.description = светится
+
+
+block.ln-luntunStorage.name = Хранилище
+block.ln-luntunStorage.description = хранит в себе 120 предметов а также если поставить в плотную к ядру то они присоединятся
+
+block.ln-antiAsteroidBarrier.name = барьер против астероидов
+block.ln-antiAsteroidBarrier.description = этот барьер защищает вас от астероидов
+
+block.ln-recipient.name = площадка приземления ресурсов
+block.ln-recipient.description = получает ресурсы с отправленного сектора
+
+block.ln-carrier.name = площадка отправки ресурсов
+block.ln-carrier.description = отправляет ресурсы на выбранные сектор
+
+
+block.ln-laserDrill.name = лазерная дрель
+block.ln-laserDrill.description = КЛОНИРУЕТ ресурсы из стен
+
+block.ln-spaceDrill.name = космо дрель
+block.ln-spaceDrill.description = выкапывает руды из астероидов
+
+
+block.ln-solarPanel.name = солнечная панель
+block.ln-solarPanel.description = получает энергию за счёт солнца
+
+block.ln-landDrill.name = наземная дрель
+block.ln-landDrill.description = помогает клонировать руды с ЗЕМЛИ
+
+block.ln-landDrillTree.name = сильная наземный бур
+block.ln-landDrillTree.description = этот бур помогает клонировать ресурсы с земли
+
+block.ln-laserNode.name = лазерный передаватель (E)
+block.ln-laserNode.description = помогает передавать электричество по постройкам
+
+block.ln-powerLine.name = ЛЭП
+block.ln-powerLine.description = переносит электричество по постройкам
+
+block.ln-bigSolarPanel.name = большая солнечная панель
+block.ln-bigSolarPanel.description = производит энергию за счет солнца
+
+block.ln-thermalPowerFactory.name = термально энерговырабатывающийся завод
+block.ln-thermalPowerFactory.description = горячо 
+
+block.ln-miniBurningFactory.name = маленький "горящий" завод
+block.ln-miniBurningFactory.description = 0_0
+
+block.ln-nuclearReactor.name = ядерный реактор
+block.ln-nuclearReactor.description = бабах и ты умер
+
+block.ln-waterPump.name = водянная помпа
+block.ln-waterPump.description = получает энергию и воду с жерла
+
+block.ln-greenwePipe.name = предметный трубопровод
+block.ln-greenwePipe.description = перемещает твои клонированные предметы по трубам
+
+block.ln-greenweBridge.name = мост
+block.ln-greenweBridge.description = помогает перемещать предметы через стены
+
+block.ln-greenweRouter.name = разделитель
+block.ln-greenweRouter.description = разделяет предметы равно по трем сторонам
+
+block.ln-greenweCrossroad.name = перекресток
+block.ln-greenweCrossroad.description = перемещает предметы сквозь другие трубы (конвееры)
+
+block.ln-LUnloader.name = выгрузчик
+block.ln-LUnloader.description = выгружает выбранный предмет вокруг себя
+
+block.ln-resourceThrower.name = метатель ресурсов
+block.ln-resourceThrower.description = переносит ресурсы к другому метателю
+
+block.ln-tuntiumRouter.name = тунтиумовый маршрутизатор
+block.ln-tuntiumRouter.description = ...
+
+block.ln-tuntiumBigRouter.name = тунтиумовый большой маршрутизатор
+block.ln-tuntiumBigRouter.description = ...
+
+block.ln-liquidRouterB.name = жидкостный разделитель
+block.ln-liquidRouterB.description = <-- ^ --->
+
+block.ln-liquidBridgeB.name = жидкостный мост
+block.ln-liquidBridgeB.description = переносит жидкости через объекты
+
+
+
+block.ln-monster.name = монстр
+block.ln-monster.description = ваша первая турель
+
+block.ln-sartun.name = сартун
+block.ln-sartun.description = множественный урон по толпе
+
+block.ln-azero.name = азеро
+block.ln-azero.description = хорошая воздушная оборона
+
+block.ln-cryoTurret.name = замораживающая турель
+block.ln-cryoTurret.description = замораживает а точнее замедляет вражеских юнитов
+
+block.ln-deadGun.name = смерть
+block.ln-deadGun.description = пробивает врагов насквозь 
+
+block.ln-alphaDestroyer.name = альфа уничтожитель
+block.ln-alphaDestroyer.description = использует мины для атаки
+
+block.ln-weakMine.name = слабая мина
+block.ln-weakMine.description = невидимая для врагов мина всего на пару использований им мало урона
+
+block.ln-strongMine.name = сильная мина
+block.ln-strongMine.description = невидимая мина для врагов но уже больше использований и урона
+
+block.ln-flamethrower.name = огнемет
+block.ln-flamethrower.description = сжигает врагов
+
+block.ln-thrower.name = метатель
+block.ln-thrower.description = стреляет тунтиумом
+
+block.ln-asteroidDestroyer.name = уничтожитель астероидов
+block.ln-asteroidDestroyer.description = уничтожает астероиды тем самым обезопасив вашу базу
+
+
+
+
+block.ln-liquidPipe.name = жидкостная труба
+block.ln-liquidPipe.description = переносит жидкости (и тд.) по трубе
+
+block.ln-liquidRouter.name = жидкостный разделитель
+block.ln-liquidRouter.description = <-- ^ --->
+
+block.ln-liquidBridge.name = жидкостный мост
+block.ln-liquidBridge.description = создает мосты для переноса жидкости над объектами
+
+block.ln-greenweWall.name = гринви стена
+block.ln-greenweWall.description = стена
+
+block.ln-goldenWall.name = золотая стена
+block.ln-goldenWall.description = прочнее чем гринви стенка
+
+block.ln-powerPlateWall.name = энерго плиточная стена
+block.ln-powerPlateWall.description = может дать ответный удар с 5 процентным шанцом
+
+block.ln-repairWall.name = самовосстанавливающаяся стена
+block.ln-repairWall.description = чинит себя после получения урона
+
+block.ln-bigGreenweWall.name = большая гринви стена
+block.ln-bigGreenweWall.description = большая стена
+
+block.ln-bigGoldenWall.name = большая золотая стена
+block.ln-bigGoldenWall.description = большая стена
+
+block.ln-bigPowerPlateWall.name = большая энерго стена
+block.ln-bigPowerPlateWall.description = большая стена
+
+block.ln-bigRepairWall.name = большая самовостанавливающаяся стена
+block.ln-bigRepairPlateWall.description = большая стена
+
+block.ln-mechanicalDoor.name = механическая дверь
+block.ln-mechanicalDoor.description = открывается проход нашим наземным юнитам
+
+
+
+
+block.ln-tOne.name = тОдин
+block.ln-tOne.description = создает новых юнитов
+
+block.ln-tTwo.name = тДва
+block.ln-tTwo.description = прокачивает юнитов
+
+block.ln-tThree.name = тТри
+block.ln-tThree.description = прокачивает юнитов
+
+block.ln-tFour.name = тЧетыре
+block.ln-tFour.description = прокачивает юнитов
+
+block.ln-tOneSoul.name = тОдинДуши
+block.ln-tOneSoul.description = создает помощников
+
+
+
+block.ln-airTrap.name = воздушная ловушка
+block.ln-airTrap.description = бесплатный воздух
+
+block.ln-powerPlateFactory.name = энерго плиточный завод
+block.ln-powerPlateFactory.description = 2 металла + магма = энерго плита
+
+block.ln-powerPlateFactory(two).name = энерго плиточный завод (2)
+block.ln-powerPlateFactory(two).description = металл(8)+супер уголь(2)= энерго плита(2)
+
+block.ln-radCoalDestroyerFactory.name = радиактивно-угольный уничтожитель
+block.ln-radCoalDestroyerFactory.description = разделяет радиоактивный уголь тем самым получая уран и уголь
+
+block.ln-iceFactory.name = завод льда
+block.ln-iceFactory.description = создает лёд с помощью воздуха
+
+block.ln-asgandiumFactory.name = асгандиум
+block.ln-asgandiumFactory.description = превращает воздух в асгандиум
+
+block.ln-nanoMatherialFactory.name = завод нано материала
+block.ln-nanoMatherialFactory.description = нано материал что это вообще такое то он гринви то золото или металл
+
+block.ln-hotGraphiteFactory.name = завод горячего графита
+block.ln-hotGraphiteFactory.description = очень горячий графит
+
+block.ln-soulFactory.name = завод закрытой души
+block.ln-soulFactory.description = создает закрытую душу каждые 5 минут
+
+block.ln-drawingFactoryOne.name = завод чертежей первого уровня
+block.ln-drawingFactoryOne.description = создает чертежи для изучения технологий
+
+block.ln-drawingFactoryTwo.name = завод чертежей второго уровня
+block.ln-drawingFactoryTwo.description = создает чертежи для изучения технологий
+
+block.ln-drawingFactoryThree.name = завод чертежей третьего
+block.ln-drawingFactoryThree.description = создает чертежи для изучения технологий
+
+
+
+
+
+
+unit.ln-knife.name = Нож
+unit.ln-knife.description = Дрон E665
+
+unit.ln-fire.name = огонь
+unit.ln-fire.description = вражеский т1 юнит который любит добавить жару
+
+unit.ln-bee.name = пчела
+unit.ln-bee.description = вражеский т1 юнит который танкует все твои построцки взрываясь в конце
+
+unit.ln-artik.name = артик
+unit.ln-artik.description = маленько радиусный сильный юнит
+
+unit.ln-monument.name = монумент
+unit.ln-monument.description = т2 юнит
+
+unit.ln-wasp.name = оса
+unit.ln-wasp.description = т2 юнит
+
+unit.ln-fantik.name = фантик
+unit.ln-fantik.description = т2 воздушный юнит
+
+unit.ln-ceramic.name = керамика
+unit.ln-ceramic.description = T3 воздушный юнит
+
+unit.ln-ninja.name = ниндзя
+unit.ln-ninja.description = T3 юнит
+
+unit.ln-runner.name = бегун
+unit.ln-runner.description = T3 юнит
+
+unit.ln-miniAttacker.name = атакер
+unit.ln-miniAttacker.description = умри! умри! УМРИ!
+
+unit.ln-machete.name = мачета
+unit.ln-machete.description = т2 юнит ядра
+
+unit.ln-soul.name = душа
+unit.ln-soul.description = нет информации
+
+unit.ln-miniSoul.name = слабая душа
+unit.ln-miniSoul.description = нет информации
+
+unit.ln-helper.name = помощник
+unit.ln-helper.description = помогает строить здания и чинит их
+
+unit.ln-voidGuard.name = охранник пустоты
+unit.ln-voidGuard.description = он защищает эту разрушенную планету от ...
+
+unit.ln-observer.name = наблюдатель
+unit.ln-observer.description = юнит вашего ядра у которого нет своего номера ведь он его потерял пока он утилизировывался
+
+unit.ln-feather.name = перо
+unit.ln-feather.description = этот массивный танк имеет атаку которая пробивает все постройки насквозь
+
+
+
+liquid.ln-air.name = воздух
+liquid.ln-air.description = воздух (а что еще должны знать про воздух?)
+
+liquid.ln-asgandium.name = асгандиум
+liquid.ln-asgandium.description = асгандиум
+
+
+
+sector.ln-tutorial.name = обучение
+sector.ln-tutorial.description = обучающий уровень
+
+sector.ln-metalCanyon.name = металлический каньон
+sector.ln-metalCanyon.description = здесь обнаруженны залежи металла
+
+sector.ln-goldSandSector.name = золотой сектор
+sector.ln-goldSandSector.description = здесь обнаруженно золото на вражеской базе
+
+sector.ln-lavaOcean.name = лавовый океан
+sector.ln-lavaOcean.description = магма?
+
+sector.ln-A790base.name = A790база
+sector.ln-A790base.description = где база?
+
+sector.ln-labyrinth.name = лабиринт
+sector.ln-labyrinth.description = что это? это реально?
+
+sector.ln-iceberg.name = айсберг
+sector.ln-iceberg.description = здесь обнаруженна вражеская база на ледниках
+
+sector.ln-fishingPort.name = рыбацкий порт
+sector.ln-fishingPort.description = ты будешь уничтожен
+
+sector.ln-greenweZone.name = зона гринви
+sector.ln-greenweZone.description = ты видишь пустотных охранников? что они тут делают
+
+sector.ln-soulSector.name = сектор души
+sector.ln-soulSector.description = хмммм душа?
+
+sector.ln-body.name = тело?
+sector.ln-body.description = сердце?
+
+sector.ln-quietPlace.name = тихое место
+sector.ln-quietPlace.description = тут можно расслабится
+
+sector.ln-iceOcean.name = ледянной океан
+sector.ln-iceOcean.description = мы приближаемся к дрону который был отправлен до нас очень давно
+
+sector.ln-nuclearProduction.name = ядерное производство
+sector.ln-nuclearProduction.description = здесь находятся 2 ядерных реактора
+
+sector.ln-sharpRocks.name = острые скалы
+sector.ln-sharpRocks.description = здесь находятся 6 разных точек спавна врага но он будет появлятся на 1 из них рандомно
+
+sector.ln-Z223BossFight.name = Z223 Босс
+sector.ln-Z223BossFight.description = он здесь!!!
+
+sector.ln-newPlanetTutorial.name = туториал новой планеты
+sector.ln-newPlanetTutorial.description = астероиды здесь...
+
+sector.ln-cintriumAsteroid.name = астероиды цинтриума
+sector.ln-newPlanetTutorial.description = новая руда цинтриум вас ожидает
+
+sector.ln-TierFour.name = первый тяжеловес
+sector.ln-TierFour.description = здесь появится первый мини босс и еще я рекомендую не скипать волну чтобы была особенная музыка для мини босса
+
+sector.ln-hotAsteroid.name = горячий астероид
+sector.ln-hotAsteroid.description = просто горячий астероид
+
+sector.ln-crystalAsteroid.name = кристальный астероид
+sector.ln-crystalAsteroid.description = этот астероид очень маленький но есть некоторые драгоценности
+
+sector.ln-city.name = город
+sector.ln-city.description = они стараются сохранить какойто секрет
+
+sector.ln-UbaseSector.name = твоя база
+

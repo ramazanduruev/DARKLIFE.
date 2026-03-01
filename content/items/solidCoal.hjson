@@ -1,0 +1,15 @@
+{
+	color: 000000FF
+	hardness: 1
+ name: solidCoal
+    research: crystal
+	charge: 0
+	explosiveness: 0.5
+	flammability: 0
+	radioactivity: 0
+	cost: 1.5
+	hiddenOnPlanets: [
+		serpulo,
+		erekir
+	]
+}

@@ -1,0 +1,15 @@
+{
+	color: 43434FFF
+	hardness: 1
+ name: steel
+    research: iron
+	charge: 0.8
+	explosiveness: 0.1
+	flammability: 0
+	radioactivity: 0
+	cost: 4
+	hiddenOnPlanets: [
+		serpulo,
+		erekir
+	]
+}
