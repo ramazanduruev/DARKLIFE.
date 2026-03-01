@@ -1,0 +1,99 @@
+type: hover
+speed: 2.2
+drag: 0.07
+accel: 0.1
+hovering: true
+shadowElevation: 0.20
+lowAltitude: true 
+groundLayer: 60
+circleTarget: false
+targetAir: true
+targetGround: true
+canBoost: false
+canDrown: false
+outlineColor: 171720FF
+outlineRadius: 3
+hitSize: 10
+health: 110
+immunities: [
+    burning
+    melting
+]
+
+weapons: [
+  {
+    name: 04d-01-inid-weapon
+    x: 0
+    y: 0
+    rotate: true
+    rotateSpeed: 4.6
+    reload: 50
+    recoil: 1
+    shootSound: shootSalvo
+    inaccuracy: 0
+    alternate: true
+    mirror: false
+    layerOffset: 0.01
+    bullet: {
+      type: BasicBulletType
+      buildingDamageMultiplier: 2.1
+      length: 8
+      width: 8
+      speed: 3
+      damage: 12
+      lifetime: 40
+      trailEffect: colorSpark
+      color: FACAD9FF
+      trailInterval: 2
+      trailParam: 3
+      trailWidth: 2
+      trailLength: 6
+      trailColor: FACAD9FF
+      homingPower: 0.08
+      homingRange: 80
+      homingDelay: 3
+    }
+  }
+]
+parts: [
+    {
+        type: HoverPart
+        radius: 16
+        stroke: 3
+        phase: 85
+        layerOffset: -0.002
+        color: F56791FF
+    }
+  ]
+
+abilities: [
+  {
+    type: MoveEffectAbility
+    interval: 1 
+    x: 0
+    y: 0
+    effect: {
+      type: ParticleEffect
+      layer: 55
+      colorFrom: F56791FF
+      colorTo: FA9BB7FF
+      particles: 1
+      length: 0
+      sizeFrom: 2
+      sizeTo: 0
+      lightScl: 1.5
+      lightOpacity: 0.5
+    }
+  }
+]
+
+research: {
+  parent: 02k-01-constructor
+  objectives: [
+{
+type: SectorComplete
+preset: 01n-04-erekirPortal
+  }
+ ]
+}
+researchCostMultiplier: 3

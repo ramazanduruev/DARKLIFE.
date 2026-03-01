@@ -1,0 +1,22 @@
+{
+type: junction
+category: distribution
+acceptsItems: true
+health: 30
+drawTeamOverlay: false
+size: 1
+speed: 1
+capacity: 1
+research: {
+parent: 01g-01-obsidianPipe
+objectives: [
+{
+type: SectorComplete
+preset: 01n-01-abandonedBase
+  }
+ ]
+}
+requirements: [
+obsidian/12
+]
+}

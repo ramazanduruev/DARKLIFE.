@@ -1,0 +1,54 @@
+{
+  type: unitFactory
+  size: 3
+  health: 600
+  plans: [
+    {
+      unit: "02d-03-remainder"
+        requirements: [
+           flesh/15
+   ]
+      time: 1200
+     }
+     {
+      unit: "02d-04-bone"
+        requirements: [
+           flesh/30
+   ]
+      time: 2400
+     }
+     {
+      unit: "02d-02-immunity"
+        requirements: [
+           flesh/30
+   ]
+      time: 20000
+     }
+     {
+      unit: "02d-01-builder"
+        requirements: [
+           flesh/30
+   ]
+      time: 20000
+     }
+     {
+      unit: "02d-05-rottenFlesh"
+        requirements: [
+           flesh/20
+   ]
+      time: 1200
+     }
+     {
+      unit: "02d-07-revival"
+        requirements: [
+           flesh/60
+   ]
+      time: 3600
+     }
+]
+
+requirements: [
+    flesh/400
+ ]
+  category: units
+}

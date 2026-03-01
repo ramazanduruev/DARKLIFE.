@@ -1,0 +1,14 @@
+type: RepairTower
+size: 2
+squareSprite: false
+category: units
+requirements: [
+
+]
+range: 100
+healAmount: 0.2
+researchCostMultiplier: 0.5
+buildVisibility: editorOnly
+absorbLasers: false
+hittable: false
+targetable: false

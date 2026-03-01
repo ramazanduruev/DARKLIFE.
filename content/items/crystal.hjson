@@ -1,0 +1,14 @@
+{
+	color: 15B892FF
+	hardness: 1
+    research: solidSalt
+	charge: 0.1
+	explosiveness: 0
+	flammability: 0
+	radioactivity: 0
+	cost: 3.5
+	hiddenOnPlanets: [
+		serpulo,
+		erekir
+	]
+}

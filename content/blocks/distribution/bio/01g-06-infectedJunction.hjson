@@ -1,0 +1,13 @@
+{
+type: junction
+category: distribution
+acceptsItems: true
+health: 560
+size: 1
+speed: 1
+capacity: 1
+drawTeamOverlay: false
+requirements: [
+flesh/150
+]
+}

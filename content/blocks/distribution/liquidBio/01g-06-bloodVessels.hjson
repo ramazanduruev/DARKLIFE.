@@ -1,0 +1,14 @@
+{
+  type: conduit
+  name: bloodVessel
+  category: liquid
+  health: 200
+  liquidPressure: 2
+  absorbLasers: false
+  hittable: false
+  targetable: false
+  drawTeamOverlay: false
+  requirements: [
+  flesh/200
+   ]
+}

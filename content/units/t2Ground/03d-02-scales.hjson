@@ -1,0 +1,42 @@
+type: mech
+speed: 0.7
+hitSize: 14
+health: 340
+mechSideSway: 0.25
+outlineColor: 171720FF
+outlineRadius: 3
+immunities: [01h-02-infection,
+]
+weapons: [
+{
+name: 03d-02-scales-weapon
+x: -12
+y: 0
+rotate: false
+rotateSpeed: 4
+reload: 18
+recoil: 1
+shootSound: shootDuo
+inaccuracy: 8
+alternate: true
+mirror: true
+ejectEffect: wet
+layerOffset: -0.01
+bullet: {
+type: BasicBulletType
+length: 8
+width: 8
+speed: 2.4
+damage: 24
+lifetime: 45
+trailEffect: shootSmallSmoke
+  trailInterval: 2
+  trailParam: 3
+  trailWidth: 2
+  trailLength: 10
+  trailColor: DCC7E5
+}
+}
+]
+
+researchCostMultiplier: 0.2

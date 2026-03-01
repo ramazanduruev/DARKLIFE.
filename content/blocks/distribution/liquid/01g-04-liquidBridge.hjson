@@ -1,0 +1,20 @@
+{
+  type: LiquidBridge
+  health: 30
+  hasPower: false
+  range: 4
+  liquidPressure: 4
+  requirements: [
+    iron/20
+  ]
+  category: liquid
+  research: {
+      parent: 01g-03-liquidRouter
+       requirements: [
+         obsidian/330
+         solidSalt/200
+         iron/60
+         steel/20
+  ]
+ }
+}
