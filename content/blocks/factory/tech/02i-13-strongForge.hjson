@@ -1,0 +1,27 @@
+type: GenericCrafter
+	category: crafting
+	size: 4
+ hasPower: true
+ hasItems: true
+ hasLiquids: true
+ itemCapacity: 18
+ liquidCapacity: 36
+ drawTeamOverlay: false
+ craftEffect: shieldApply
+ consumes: {
+  power: 2
+  items: [
+    crystalProtection/1
+    amethystProtection/1
+    iceCube/2
+  ]
+  liquid: {
+    liquid: water
+    amount: 1.4
+  }
+}
+outputItem: alloyProtection/2
+requirements: [
+ obsidian/30
+ crystal/20
+    ]	

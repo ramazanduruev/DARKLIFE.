@@ -1,0 +1,10 @@
+gas: true
+  color: 51C48AFF
+  flammability: 0
+  viscosity: 0
+  explosiveness: 0
+  lightColor: 51C48AFF
+  heatCapacity: 0
+  temperature: 0
+  coolant: true
+research: 01p-01-infectedWater

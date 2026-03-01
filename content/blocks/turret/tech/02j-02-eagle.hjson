@@ -1,0 +1,86 @@
+type: ItemTurret
+size: 3
+health: 640
+range: 245
+recoil: 4
+recoilTime: 20
+category: turret
+reload: 60
+itemCapacity: 8
+outlineColor: 32303BFF
+
+shoot: {
+  type: ShootBurst
+  shots: 5
+  shotDelay: 3
+}
+
+ammoTypes: {
+  crystal: {
+    type: BasicBulletType
+    speed: 12.0
+    lifetime: 23.3
+    damage: 17
+    width: 8
+    height: 26
+    buildingDamageMultiplier: 0.1
+    ammoMultiplier: 1
+    inaccuracy: 8
+    frontColor: ffffff
+    backColor: 00FFC4FF
+    trailWidth: 2
+    trailLength: 6
+    trailColor: 15B892FF
+  }
+  amethyst: {
+    type: BasicBulletType
+    speed: 10.0
+    lifetime: 23.3
+    damage: 22
+    width: 8
+    height: 26
+    buildingDamageMultiplier: 0.1
+    ammoMultiplier: 1
+    inaccuracy: 3
+    frontColor: ffffff
+    backColor: 5C4078FF
+    trailWidth: 2
+    trailLength: 6
+    trailColor: 935DC9FF
+  }
+}
+
+drawer: {
+  type: DrawTurret
+      basePrefix: stone-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -side-l
+      moveX: -2.7
+      moveY: -1.5
+      progress: recoil
+    }
+    {
+      type: RegionPart
+      suffix: -side-r
+      moveX: 2.7
+      moveY: -1.5
+      progress: recoil
+    }
+  ]
+}
+research: {
+  parent: 02j-01-omega
+}
+researchCost: [
+  obsidian/2000
+  solidSalt/1000
+  steel/200
+  amethyst/200
+] 
+requirements: [
+    obsidian/80
+    steel/20
+    amethyst/40
+]

@@ -1,0 +1,4 @@
+type: floor,
+name: clayNFloor,
+variants: 5,
+wall: clayWall

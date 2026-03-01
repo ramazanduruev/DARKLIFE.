@@ -1,0 +1,4 @@
+type: floor,
+name: algaeFloor,
+variants: 10,
+wall: saltWall

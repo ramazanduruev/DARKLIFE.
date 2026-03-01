@@ -1,0 +1,61 @@
+{
+  name: revival
+  type: legs
+  canDrown: false
+  legCount: 3
+  legLength: 11
+  legSpeed: 0.4
+  legForwardScl: 0.90
+  legMoveSpace: 1.15
+  armor: 2
+  speed: 1.2
+  hitSize: 10
+  flying: false
+  health: 230
+  range: 30
+  outlineRadius: 2
+  outlineColor: 663636FF
+  
+ 
+  weapons: [
+    {
+      name: none
+      x: 0
+      y: 0
+      layerOffset: -0.01
+      reload: 40
+      shootSound: shootFlesh
+      rotate: false
+      mirror: false
+      chargeSound: shootFlesh
+      alternate: false
+      inaccuracy: 10
+      shoot: {
+        firstShotDelay: 10
+        shots: 4
+        shotDelay: 3
+      }
+      bullet: {
+        type: LiquidBulletType
+        liquid: 01p-01-infectedWater
+        speed: 2.8
+        lifetime: 35
+        damage: 30
+        pierce: false
+        buildingDamageMultiplier: 0.7
+        chargeEffect: fireballsmoke
+        shootEffect: shootSmall
+        shootSound: shootFlesh
+      }
+     }
+]
+abilities: [
+  {
+    type: SpawnDeathAbility
+    unit: 02d-08-revivalIncubator
+    amount: 1
+    spawnEffect: none
+  }
+]
+
+}

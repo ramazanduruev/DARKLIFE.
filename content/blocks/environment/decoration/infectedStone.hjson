@@ -1,0 +1,4 @@
+type: Prop
+name: infectedStone
+variants: 3
+breakSound: rock-crush

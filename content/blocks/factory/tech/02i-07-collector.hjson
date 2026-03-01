@@ -1,0 +1,30 @@
+type: GenericCrafter
+size: 2
+category: crafting
+craftTime: 30.0
+outputItem: iceCube/1
+hasItems: true
+update: true
+craftEffect: lancerLaserChargeBegin
+requirements: [
+  obsidian/60
+  steel/20
+  crystal/30
+]
+research: {
+    planet: cilistis
+	parent: 02i-03-metallurgicalPlant
+	requirements: [
+	obsidian/1600
+ iron/800
+ clay/230
+ amethyst/1000
+	]
+  objectives: [
+  {
+  type: SectorComplete
+  preset: 01n-07-fleshStudyBase
+  }
+  ]
+}
+

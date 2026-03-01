@@ -1,0 +1,6 @@
+type: StaticWall,
+name: clayWall,
+variants: 2
+attributes: {
+  clayStone: 1
+}

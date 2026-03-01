@@ -1,0 +1,18 @@
+type: AutoDoor
+size: 2
+health: 600
+requirements: [
+ steel/40
+ clay/20
+]
+research: {
+  parent: 01o-04-amethystWall
+objectives: [
+{
+type: SectorComplete
+preset: 01n-07-fleshStudyBase
+  }
+ ]
+}
+researchCostMultiplier: 0.5
+category: defense

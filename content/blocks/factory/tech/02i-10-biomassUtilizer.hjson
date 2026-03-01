@@ -1,0 +1,46 @@
+type: GenericCrafter
+size: 3
+hasPower: true
+hasItems: true
+hasLiquids: true
+
+rotate: true
+craftTime: 30
+
+consumes: {
+  power: 1.8
+  items: [
+    flesh/3
+  ]
+  liquids: [
+    water/0.22
+  ]
+}
+
+outputItem: bone/2
+
+outputLiquids: [
+  01p-02-metan/1
+]
+liquidOutputDirections: [
+  0
+]
+
+requirements: [
+  copper/80
+  lead/60
+  graphite/40
+]
+category: crafting
+
+craftEffect: {
+  type: ParticleEffect
+  particles: 12
+  length: 12
+  lifetime: 40
+  cone: 60
+  colorFrom: 3CA370FF
+  colorTo: 3CA370FF
+  sizeFrom: 4
+  sizeTo: 0
+}

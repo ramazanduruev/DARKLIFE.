@@ -1,0 +1,17 @@
+type: ParticleWeather
+name: Frezing Rain
+color: D4DEFFFF
+noiseColor: ADB8D9FF
+particleRegion: mo-iceRain
+duration: 3600
+useWindVector: false
+forceX: 0
+forceY: -0.5
+sound: breakingIce
+soundVol: 0.5
+baseSpeed: 2
+density: 4000
+sizeMax: 6
+sizeMin: 4
+status: freezing
+statusDuration: 120

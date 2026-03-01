@@ -1,0 +1,4 @@
+type: floor,
+name: amethystNFloor,
+variants: 6,
+wall: amethystWall

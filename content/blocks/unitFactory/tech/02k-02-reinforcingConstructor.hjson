@@ -1,0 +1,38 @@
+{
+    type: Reconstructor
+    health: 100
+    size: 5
+    constructTime: 1800
+    upgrades: [
+        ["03d-01-fin", "03d-02-scales"]
+        ["04d-01-inid", "04d-02-dunite"]
+    ]
+    consumes: {
+        power: 2.4
+        items: {
+            items: [
+              obsidian/45
+              steel/60
+              crystalProtection/10
+              amethystProtection/10
+            ]
+        }
+    }
+    requirements: [
+    obsidian/200
+    iron/340
+    steel/100
+    flesh/20
+    ]
+    category: units
+    research: {
+      parent: 02k-01-constructor
+       requirements: [
+        obsidian/1400
+        solidSalt/1000
+        iron/800
+        steel/800
+        amethyst/100
+  ]
+ }
+ }

@@ -1,0 +1,29 @@
+type: Battery
+size: 2
+category: power
+health: 120
+consumes: {
+  powerBuffered: 2000
+}
+requirements: [
+obsidian/45
+crystal/60
+steel/5
+amethyst/10
+]
+research: {
+      parent: 01m-01-node
+       requirements: [
+       steel/200
+       amethyst/200
+       crystalProtection/45
+       amethystProtection/40
+  ]
+  objectives: [
+  {
+  type: SectorComplete
+  preset: 01n-08-dispatchBase
+  }
+ ]
+ }
+

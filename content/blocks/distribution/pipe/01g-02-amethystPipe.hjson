@@ -1,0 +1,29 @@
+type: Duct
+drawTeamOverlay: false
+update: true
+hasItems: true
+itemCapacity: 1
+isDuct: true
+underBullets: false
+  category: distribution
+  speed: 10
+  displayedSpeed: 1   
+  health: 35
+  acceptsItems: true
+  junctionReplacement: 02g-02-crossroads
+  bridgeReplacement: 02g-03-bridge
+  requirements: [
+steel/1
+amethyst/1
+]
+research: {
+  parent: 01g-01-obsidianPipe
+}
+researchCost: [
+  obsidian/200
+  steel/450
+  amethyst/220
+] 
+
+researchCostMultiplier: 1
+

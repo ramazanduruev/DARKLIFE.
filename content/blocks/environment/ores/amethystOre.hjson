@@ -1,0 +1,4 @@
+variants: 3
+  itemDrop: amethyst
+  name: amethystOre
+  type: OreBlock

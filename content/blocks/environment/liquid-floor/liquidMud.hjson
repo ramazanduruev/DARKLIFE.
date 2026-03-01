@@ -1,0 +1,9 @@
+type: Floor
+variants: 1
+name: liquidMud
+isLiquid: true
+liquidDrop: water
+
+speedMultiplier: 0.85
+drownTime: 400
+cacheLayer: water

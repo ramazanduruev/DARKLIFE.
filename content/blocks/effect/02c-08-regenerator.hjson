@@ -1,0 +1,57 @@
+type: RegenProjector
+size: 2
+range: 24
+baseColor: 85c278
+squareSprite: false
+effect: {
+  type: ParticleEffect
+  colorFrom: 85c278
+  colorTo: 69a25e
+  particles: 3
+  line: true
+  length: 4
+  baseLength: 2
+  strokeFrom: 0.6
+  strokeTo: 1.6
+  lifetime: 90
+  cone: 360
+  interp: pow2
+  sizeInterp: pow2Out
+}
+consumes: {
+  power: 0.2
+}
+optionalUseTime: 180
+optionalMultiplier: 1
+healPercent: 0.01
+requirements: [
+]
+category: effect
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawPulseShape
+      square: true
+      color: 85c278
+      layer: 110
+    }
+  ]
+} 
+researchCostMultiplier: 0.5
+
+research: {
+      parent: 01b-01-core-capsule
+       requirements: [
+   crystal/10
+  ]
+}
+
+requirements: [
+  obsidian/35
+  solidSalt/10
+  
+  ]

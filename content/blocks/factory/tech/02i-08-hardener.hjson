@@ -1,0 +1,88 @@
+type: AttributeCrafter
+size: 4
+hasPower: true
+hasItems: false
+hasLiquids: true
+liquidCapacity: 30.0
+itemCapacity: 10
+craftTime: 60.0
+category: crafting
+consumes: {
+  power: 1.5
+  liquid: {
+    liquid: water
+    amount: 0.2
+  }
+}
+
+outputItem: obsidian/2
+requirements: [
+obsidian/60
+steel/40
+flesh/200
+crystal/20
+amethyst/10
+]
+
+attribute: heat
+baseEfficiency: 0
+boostScale: 0.5
+maxBoost: 2.5
+minEfficiency: 0.1
+
+research: {
+    planet: cilistis
+	parent: 02i-01-incubator
+	requirements: [
+	obsidian/8000
+ iron/3400
+ amethyst/2222
+	]
+  objectives: [
+  {
+  type: SectorComplete
+  preset: 01n-09-erekirPortal
+  }
+  ]
+}
+drawer: {
+      type: DrawMulti
+      drawers: [	  
+          {
+          type: DrawRegion
+		  suffix: -bottom
+          }
+         { 
+         type: DrawDefault
+         }
+      {
+      type: DrawGlowRegion
+      suffix: "-glow"
+      color: "FFB570FF"
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: water
+      alpha: 0.7
+      padding: 2
+    }
+    {
+		  type: DrawRegion
+		  suffix: -rotator
+		  spinSprite: true
+		  rotateSpeed: 2
+    layerOffset: 0.01
+    x: -9.4
+    y: -7.6
+		  }
+    {
+      type: DrawFrames
+      frames: 112
+      interval: 6
+      sine: false
+    }
+		  {
+		  type: DrawDefault
+		  }
+      ]
+    }

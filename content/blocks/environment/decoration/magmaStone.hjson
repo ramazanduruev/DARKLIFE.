@@ -1,0 +1,4 @@
+type: Prop
+name: magmaStone
+variants: 3
+breakSound: rock-crush

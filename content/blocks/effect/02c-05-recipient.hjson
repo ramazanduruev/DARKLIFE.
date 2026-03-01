@@ -1,0 +1,28 @@
+{
+  health: 240
+  type: landingPad
+  category: effect
+  hasLiquid: true
+ 	liquidCapacity: 1000
+  research: {
+    parent: 02c-04-carrier
+    requirements: [
+    obsidian/600
+    steel/450
+    iceCube/12
+    ]
+    objectives: [
+  {
+  type: SectorComplete
+  preset: 01n-08-dispatchBase
+  }
+  ]
+  }
+  requirements: [
+  steel/120
+  crystalProtection/60
+  amethystProtection/60
+  ]
+  size: 4
+  itemCapacity: 160
+}

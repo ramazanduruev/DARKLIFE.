@@ -1,0 +1,15 @@
+
+type: Router
+category: distribution
+health: 30
+size: 1
+capacity: 2
+drawTeamOverlay: false
+requirements: [
+obsidian/8
+]
+research: {
+parent: 01g-01-obsidianPipe
+}
+researchCostMultiplier: 0.3
+

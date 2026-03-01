@@ -1,0 +1,65 @@
+type: BurstDrill
+size: 3
+category: production
+drillTime: 360
+drillHardnessMultiplier: 150
+hasPower: false
+tier: 1
+shake: 1.5
+itemCapacity: 20
+
+research: {
+  parent: 01b-01-core-capsule
+}
+researchCost: [
+  obsidian/30
+] 
+
+consumes: {
+		}
+
+drillEffect: [
+  {
+    type: WaveEffect
+    sizeFrom: 0.1
+    sizeTo: 15
+    strokeFrom: 2
+    strokeTo: 0.1
+    colorFrom: 8f8d87
+    colorTo: 6b6a66
+    lifetime: 40
+  }
+  {
+  type: MineImpact
+  } 
+  {
+  type: MineImpactSteam
+  } 
+  {
+  type: DrillSteam
+  } 
+]
+
+
+requirements: [
+obsidian/40
+]
+
+
+squareSprite: false
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -arrow
+    }
+    {
+      type: DrawDefault
+    } 
+  ]
+}
+
+
+

@@ -1,0 +1,57 @@
+type: GenericCrafter
+size: 3
+hasPower: true
+hasItems: true
+hasLiquids: true
+
+# Разрешаем вращение блока для правильного подключения труб
+rotate: true
+craftTime: 75.0
+
+# Входные ресурсы
+consumes: {
+  power: 2.0
+  items: [
+    flesh/2
+    coal/1
+  ]
+  liquids: [
+    water/0.15
+  ]
+}
+
+# Твердый выход (сера) — выходит на конвейеры с любых свободных сторон
+outputItem: sulfur/2
+
+# Механика Эрекира: вывод ДВУХ газов в строго определенные стороны
+outputLiquids: [
+  # Первый газ (убедись, что имя файла methane.hjson)
+  01p-02-metan/6.0
+  # Второй газ (убедись, что имя файла ammonia.hjson)
+  01p-03-ammonia/4.0
+]
+
+# Направления вывода для газов по порядку, как они указаны выше:
+# 0 — строго ВПЕРЕД (куда указывает стрелка направления блока)
+# 2 — строго ВЗАД (противоположная сторона от стрелки)
+liquidOutputDirections: [0, 2]
+
+# Стоимость постройки
+requirements: [
+  copper/110
+  lead/80
+  graphite/55
+]
+category: crafting
+
+craftEffect: {
+  type: ParticleEffect
+  particles: 12
+  length: 12
+  lifetime: 40
+  cone: 60
+  colorFrom: eed655
+  colorTo: 8da14e
+  sizeFrom: 4
+  sizeTo: 0
+}

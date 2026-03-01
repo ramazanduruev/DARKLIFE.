@@ -1,0 +1,11 @@
+{
+	color: BFBF88FF
+	hardness: 1
+    research: clay
+	charge: 0
+	explosiveness: 0.8
+	flammability: 0.3
+	radioactivity: 0
+	cost: 4
+}
+	

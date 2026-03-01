@@ -1,0 +1,3 @@
+type: StaticWall,
+name: infectedWall,
+variants: 2

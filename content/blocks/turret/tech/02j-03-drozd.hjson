@@ -1,0 +1,170 @@
+type: ItemTurret
+health: 260
+size: 2
+reload: 50
+range: 180
+minRange: 20
+targetAir: false
+targetGround: true
+shootSound: shootCollaris
+rotateSpeed: 2
+outlineColor: 32303BFF
+shoot: {
+  type: ShootBurst
+  shots: 3
+  shotDelay: 2
+}
+
+ammoTypes: {
+  crystal: {
+    type: BasicBulletType
+    damage: 10
+    speed: 6.5
+    lifetime: 22
+    width: 18
+    height: 18
+    sprite: mine-bullet
+    spin: 5.5
+    frontColor: a4b8ec
+    backColor: 7382b0
+    hitEffect: hitLiquid
+    trailWidth: 3
+    trailLength: 7
+    trailColor: a4b8ec
+    buildingDamageMultiplier: 0.01
+    inaccuracy: 4
+    collides: false
+    collidesTiles: false
+    recoil: 4
+    
+    fragBullets: 1
+    fragBullet: {
+      type: BasicBulletType
+      damage: 18
+      speed: 5.5
+      lifetime: 25
+      width: 16
+      height: 16
+      sprite: mine-bullet
+      spin: 6.0
+      frontColor: a4b8ec
+      backColor: 7382b0
+      homingPower: 0.22
+      homingRange: 60
+      hitEffect: hitLiquid
+      trailWidth: 2.5
+      trailLength: 6
+      trailColor: a4b8ec
+      buildingDamageMultiplier: 0.01
+      
+      fragBullets: 2
+      fragBullet: {
+        type: BasicBulletType
+        damage: 6
+        speed: 4.5
+        lifetime: 20
+        width: 13
+        height: 13
+        sprite: mine-bullet
+        spin: 8.0
+        frontColor: a4b8ec
+        backColor: 7382b0
+        homingPower: 0.3
+        homingRange: 50
+        hitEffect: pointHit
+        trailWidth: 2
+        trailLength: 5.5
+        trailColor: a4b8ec
+        buildingDamageMultiplier: 0.01
+        
+         fragBullets: 1
+         fragBullet: {
+        type: BasicBulletType
+        damage: 8
+        speed: 3.5
+        lifetime: 20
+        width: 8
+        height: 8
+        sprite: mine-bullet
+        spin: 8.0
+        frontColor: a4b8ec
+        backColor: 7382b0
+        homingPower: 0.3
+        homingRange: 50
+        hitEffect: pointHit
+        trailWidth: 1.5
+        trailLength: 4.5
+        trailColor: a4b8ec
+        buildingDamageMultiplier: 0.01
+        }
+      }
+    }
+   }
+    iceCube: {
+    type: BasicBulletType
+    damage: 20
+    speed: 6.5
+    lifetime: 22
+    width: 18
+    height: 18
+    sprite: mine-bullet
+    spin: 8
+    frontColor: a4b8ec
+    backColor: 7382b0
+    hitEffect: hitLiquid
+    trailWidth: 2
+    trailLength: 5
+    trailColor: a4b8ec
+    buildingDamageMultiplier: 0.01
+    inaccuracy: 4
+    collides: false
+    collidesTiles: false
+    recoil: 4
+    
+    fragBullets: 2
+    fragBullet: {
+      type: BasicBulletType
+      damage: 11
+      speed: 5.5
+      lifetime: 25
+      width: 16
+      height: 16
+      sprite: mine-bullet
+      spin: 8
+      frontColor: 444D6CFF
+      backColor: 444D6CFF
+      homingPower: 0.22
+      homingRange: 60
+      hitEffect: landShock
+      trailWidth: 1.5
+      trailLength: 3
+      trailColor: 444D6CFF
+      buildingDamageMultiplier: 0.01
+      status: freezing
+					 statusDuration: 30
+      
+    }
+  }
+}
+
+requirements: [
+obsidian/80
+steel/15
+crystal/120
+amethyst/60
+
+]
+category: turret
+drawer: {
+  type: DrawTurret
+      basePrefix: smallStone-
+}
+research: {
+  parent: 02j-01-omega
+}
+researchCost: [
+  obsidian/2000
+  solidSalt/1000
+  crystal/1000
+  amethyst/200
+] 

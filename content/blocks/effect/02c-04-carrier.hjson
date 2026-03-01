@@ -1,0 +1,27 @@
+{
+  health: 240
+  type: launchPad
+  category: effect
+  research: {
+    parent: 02c-03-steelContainer
+    requirements: [
+    obsidian/2120
+    steel/2430
+    iceCube/865
+    ]
+    objectives: [
+  {
+  type: SectorComplete
+  preset: 01n-08-dispatchBase
+  }
+  ]
+  }
+  requirements: [
+  steel/140
+  crystalProtection/80
+  amethystProtection/80
+  ]
+  size: 4
+  itemCapacity: 160
+  launchTime: 800
+}

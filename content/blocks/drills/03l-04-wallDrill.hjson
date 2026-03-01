@@ -1,0 +1,30 @@
+type: WallCrafter
+size: 2
+category: production
+research: {
+      parent: 03l-03-explosiveDrill
+       requirements: [
+       obsidian/300
+       crystal/230
+       iron/60
+  ]
+ }
+requirements: [
+  obsidian/60
+  crystal/20
+]
+
+consumes: {
+ power: 0.1
+ }
+
+drillTime: 220
+output: clay
+attribute: clayStone
+minEfficiency: 0.15
+baseEfficiency: 0.5
+ambientSound: drill
+ambientSoundVolume: 0.08
+
+squareSprite: false
+researchCostMultiplier: 0.1 

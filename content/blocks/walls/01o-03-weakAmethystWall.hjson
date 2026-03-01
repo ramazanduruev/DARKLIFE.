@@ -1,0 +1,16 @@
+{
+  type: wall
+  health: 280
+  size: 1
+  drawTeamOverlay: false
+  researchCostMultiplier: 0.8
+  chanceDeflect: 1
+  flashHit: true
+  requirements:[
+  amethyst/8
+  ]
+  research: {
+  parent: 01o-02-crystalWall
+}
+  category: defense
+}

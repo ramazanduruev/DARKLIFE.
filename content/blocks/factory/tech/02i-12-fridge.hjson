@@ -1,0 +1,22 @@
+type: GenericCrafter
+	category: crafting
+	size: 2
+ hasPower: true
+ hasItems: true
+ hasLiquids: true
+ itemCapacity: 8
+ liquidCapacity: 24
+ drawTeamOverlay: false
+ craftEffect: shieldApply
+ consumes: {
+  power: 2
+  liquid: {
+    liquid: 01p-03-ammonia
+    amount: 0.4
+  }
+}
+outputItem: iceCube/1
+requirements: [
+ obsidian/30
+ crystal/20
+    ]	

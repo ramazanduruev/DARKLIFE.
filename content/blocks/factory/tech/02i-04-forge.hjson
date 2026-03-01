@@ -1,0 +1,48 @@
+type: GenericCrafter
+size: 2
+category: crafting
+craftEffect: redgeneratespark
+drawer: {
+type: DrawMulti
+drawers: [	  
+          {
+          type: DrawRegion
+		  suffix: -bottom
+          }
+		  {
+		  type: DrawDefault
+		  }
+    {
+      type: DrawGlowRegion
+      suffix: "-glow"
+      color: "FF9166FF"
+    }
+      ]
+}
+requirements: [
+ obsidian/120
+ steel/60
+ amethyst/10
+]
+consumes: {
+  power: 1.2
+  items: [
+  crystal/1
+  amethyst/1
+  ]
+}
+craftTime: 60
+outputItems: [
+crystalProtection/1,
+amethystProtection/1
+]
+research: {
+    planet: cilistis
+	parent: 02i-02-filter
+	requirements: [
+	obsidian/800
+ iron/80
+ clay/65
+ amethyst/35
+	]
+}

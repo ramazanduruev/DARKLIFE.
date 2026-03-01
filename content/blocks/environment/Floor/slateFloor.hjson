@@ -1,0 +1,4 @@
+type: floor,
+name: slateFloor,
+variants: 10,
+wall: slateWall

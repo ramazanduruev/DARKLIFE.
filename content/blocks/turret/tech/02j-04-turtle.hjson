@@ -1,0 +1,39 @@
+type: ItemTurret
+size: 3
+health: 400
+range: 280
+reload: 800
+recoil: 4          
+shootSound: artillery
+targetHealing: true
+targetAir: false
+targetGround: false
+category: turret
+shoot: {
+  type: ShootBurst
+  shots: 3
+  shotDelay: 6
+}
+requirements: [
+ 
+]
+ammoTypes: {
+  alloyProtection: {
+    type: HealBulletType
+    sprite: mo-armor
+    width: 14
+    height: 14
+    shrinkY: 0
+    backColor: a084f3
+    frontColor: ffffff
+    inaccuracy: 2
+    speed: 4
+    lifetime: 80
+    
+    healAmount: 160
+    collidesTeam: true
+    hitEffect: greenLaserChargeSmall
+    despawnEffect: drillSteam
+  }
+}
+

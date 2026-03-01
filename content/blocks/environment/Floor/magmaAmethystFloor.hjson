@@ -1,0 +1,7 @@
+type: floor,
+name: magmaAmethystFloor,
+variants: 3,
+wall: amethystWall
+attributes: {
+heat: 0.10
+}

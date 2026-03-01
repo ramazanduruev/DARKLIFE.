@@ -1,0 +1,21 @@
+
+name: infection
+speedMultiplier: 1.2
+damage: -0.1
+effect: {
+    type: MultiEffect
+    effects: [
+        melting, 
+        {
+            type: ParticleEffect
+            sizeFrom: 2
+            sizeTo: 0
+            lifetime: 60
+            particles: 3
+            cone: 360
+            length: 2
+            colorFrom: 8C4A4AFF
+            colorTo: 663636FF
+        }
+    ]
+}

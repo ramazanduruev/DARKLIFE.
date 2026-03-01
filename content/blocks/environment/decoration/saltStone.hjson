@@ -1,0 +1,4 @@
+type: Prop
+name: saltStone
+variants: 4
+breakSound: rock-crush

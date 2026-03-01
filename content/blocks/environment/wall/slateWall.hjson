@@ -1,0 +1,6 @@
+type: StaticWall,
+name: slateWall,
+variants: 2
+attributes: {
+  clayStone: 0.15
+}
