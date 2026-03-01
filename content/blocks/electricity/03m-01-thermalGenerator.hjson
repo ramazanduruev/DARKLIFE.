@@ -1,0 +1,50 @@
+{
+  type: ThermalGenerator
+  attribute: heat
+  powerProduction: 1.2
+  size: 4
+  generateEffect: {
+    type: ParticleEffect
+    particles: 1
+    length: 2
+    lifetime: 60
+    colorFrom: EB564BFF
+    colorTo: FF9166FF
+    interp: circleOut
+  }
+
+  category: power
+  health: 200
+  drawer: {
+      type: DrawMulti
+      drawers: [	
+      {
+          type: DrawRegion
+		  suffix: -bottom
+    layerOffset: -0.01
+          }
+{
+		  type: DrawRegion
+		  suffix: -rotator
+		  spinSprite: true
+		  rotateSpeed: 3
+    x: 0
+    y: 0
+		  }
+		  {
+		  type: DrawDefault
+		  }
+      ]
+    }
+  requirements: [
+  obsidian/60
+  solidSalt/20
+  ]
+  research: {
+      parent: 01b-01-core-capsule
+       requirements: [
+       obsidian/400
+       solidSalt/220
+  ]
+ }
+}

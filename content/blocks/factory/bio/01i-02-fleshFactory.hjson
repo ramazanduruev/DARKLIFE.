@@ -1,0 +1,32 @@
+	type: GenericCrafter
+ name: fleshFactory
+	category: logic
+	size: 2
+	hasLiquid: false
+ drawTeamOverlay: false
+	requirements: [
+    ]	
+    outputItem: flesh/1
+    craftTime: 60
+
+	drawer: {
+      type: DrawMulti
+      drawers: [	  
+          {
+          type: DrawRegion
+		  suffix: -bottom
+          }
+		  {
+		  type: DrawRegion
+		  suffix: -rotator
+		  spinSprite: true
+		  rotateSpeed: 2
+    x: 0
+    y: 0
+    layerOffset: -0.001
+		  }
+		  {
+		  type: DrawDefault
+		  }
+      ]
+    }

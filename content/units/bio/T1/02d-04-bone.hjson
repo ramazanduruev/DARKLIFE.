@@ -1,0 +1,35 @@
+{
+type: mech
+speed: 0.9
+hitSize:12
+health: 120
+mechSideSway: 0.25
+outlineRadius: 3
+outlineColor: 171720FF
+weapons: [
+    {
+      name: 02d-04-bone-weapon
+      x: -9
+      y: 0
+      layerOffset: -0.01
+      reload: 15
+      shootSound: shootFlesh
+      rotate: false
+      mirror: true
+      chargeSound: shootFlesh
+      alternate: false
+      bullet: {
+        type: LiquidBulletType
+        liquid: 01p-01-infectedWater
+        speed: 3
+        lifetime: 35
+        damage: 14
+        pierce: false
+        buildingDamageMultiplier: 0.8
+        chargeEffect: lightningCharge
+        shootEffect: shootSmall
+        shootSound: shootFlesh
+      }
+     }
+    ]
+}

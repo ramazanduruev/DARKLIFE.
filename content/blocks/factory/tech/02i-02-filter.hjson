@@ -1,0 +1,58 @@
+	type: GenericCrafter
+	category: crafting
+	size: 2
+	hasLiquid: false
+ drawTeamOverlay: false
+ craftEffect: airBubble
+ research: {
+    planet: cilistis
+	parent: 02i-01-incubator
+	requirements: [
+	obsidian/330
+ iron/220
+ clay/40
+	]
+}
+ consumes: {
+  power: 1
+}
+	requirements: [
+ obsidian/30
+ solidSalt/60
+ iron/5
+ clay/5
+    ]	
+    outputItem: solidSalt/1
+    outputLiquid: water/0.2
+    craftTime: 80
+
+	drawer: {
+      type: DrawMulti
+      drawers: [	  
+          {
+          type: DrawRegion
+		  suffix: -bottom
+          }
+		  {
+		  type: DrawRegion
+		  suffix: -rotator
+		  spinSprite: true
+		  rotateSpeed: 3
+    x: 0
+    y: 0
+    layerOffset: -0.001
+		  }
+     {
+		  type: DrawRegion
+		  suffix: -rotator
+		  spinSprite: true
+		  rotateSpeed: -1
+    x: 0
+    y: 0
+    layerOffset: -0.001
+		  }
+		  {
+		  type: DrawDefault
+		  }
+      ]
+    }

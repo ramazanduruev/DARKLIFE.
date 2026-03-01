@@ -1,0 +1,26 @@
+type: Duct
+drawTeamOverlay: false
+update: true
+hasItems: true
+itemCapacity: 1
+isDuct: true
+underBullets: false
+  category: distribution
+  speed: 20
+  displayedSpeed: 1   
+  health: 30
+  acceptsItems: true
+  junctionReplacement: 02g-02-crossroads
+  bridgeReplacement: 02g-03-bridge
+  requirements: [
+obsidian/1
+]
+research: {
+  parent: 01b-01-core-capsule
+}
+researchCost: [
+  obsidian/10
+] 
+
+researchCostMultiplier: 1
+

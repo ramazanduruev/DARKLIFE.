@@ -1,0 +1,46 @@
+type: GenericCrafter
+	category: crafting
+	size: 2
+ hasPower: true
+ hasItems: true
+ hasLiquids: true
+ itemCapacity: 8
+ liquidCapacity: 24
+ drawTeamOverlay: false
+ craftEffect: shieldApply
+ consumes: {
+  power: 0.8
+}
+
+	requirements: [
+ obsidian/30
+ crystal/20
+    ]	
+research: {
+    planet: cilistis
+	parent: 01b-01-core-capsule
+	requirements: [
+	clay/20
+	]
+}
+    outputItem: flesh/1
+    outputLiquid: 01p-01-infectedWater/0.4
+    craftTime: 200
+drawer: {
+      type: DrawMulti
+      drawers: [	  
+          {
+          type: DrawRegion
+		  suffix: -bottom
+          }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 01p-01-infectedWater
+      alpha: 0.7
+      padding: 2
+    }
+		  {
+		  type: DrawDefault
+		  }
+      ]
+    }

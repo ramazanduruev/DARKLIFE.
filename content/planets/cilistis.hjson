@@ -1,0 +1,399 @@
+
+localisedName: cilistis
+description: Unknown planet
+orbitRadius: 140
+sectorSize: 3
+allowLaunchSchematics: true
+allowLaunchToNumbered: false
+allowLaunchLoadout: true
+allowSectorInvasion: true
+startSector: 0
+orbitSpacing: 1
+radius: 0.99
+minZoom: 1
+drawOrbit: true
+atmosphereRadIn: 0.02
+atmosphereRadOut: 0.4
+clipSize: 8500
+accessible: true
+updateLighting: false
+sectorSeed: 69
+bloom: true
+visible: true
+atmosphereColor: 4DA6FFFF
+iconColor: 4DA6FFFF
+hasAtmosphere: true
+allowWaveSimulation: true
+clearSectorOnLose: true
+allowWaves: true
+prebuildBase: true
+defaultCore: 01b-01-core-capsule
+parent: sun
+solarSystem: sun
+tidalLock: false 
+orbitTime: 0.3
+defaultEnv: 237
+mesh: [
+  //baseplate
+  {
+  type: NoiseMesh 
+  color: 6d9ea6
+  seed: 0
+  planet: cilistis
+  radius: 0.95
+  octaves: 4.25
+  persistence: 0.8
+  divisions: 4
+  scale: 1
+  mag: 1.05
+  }
+  //mountain
+  {
+  type: NoiseMesh
+  color: dce2e3
+  seed: 67
+  planet: cilistis
+  radius: 0.30
+  octaves: 1
+  persistence: 7
+  divisions: 1.2
+  scale: 1.4
+  mag: 1.2
+  }
+  {
+  type: NoiseMesh
+  color: abb8ba
+  seed: 4556
+  planet: cilistis
+  radius: 0.3
+  octaves: 0.5
+  persistence: 56
+  divisions: 1
+  scale: 1
+  mag: 1
+  }
+  //water
+  {
+  type: NoiseMesh
+  color: 565fb0
+  seed: 22
+  planet: cilistis
+  radius: 0.92775
+  octaves: 2.75
+  persistence: 0.45
+  divisions: 5
+  scale: 0.6
+  mag: 1.05
+  }
+  //shore 
+  {
+  type: NoiseMesh
+  color: 6870bd
+  seed: 22
+  planet: cilistis
+  radius: 0.927725
+  octaves: 3.5
+  persistence: 0.45
+  divisions: 5
+  scale: 0.6
+  mag: 1.05
+  }
+  //growth 
+  {
+  type: NoiseMesh
+  color: 88839c
+  seed: 42
+  planet: cilistis
+  radius: 0.865
+  octaves: 1.32
+  persistence: 6.75
+  divisions: 4
+  scale: 2.2
+  mag: 1.185
+  }
+  {
+  type: NoiseMesh
+  color: 625c78
+  seed: 63
+  planet: cilistis
+  radius: 0.87
+  octaves: 1.3
+  persistence: 6.75
+  divisions: 4
+  scale: 2.225
+  mag: 1.2
+  }
+  {
+  type: NoiseMesh
+  color: 7766bd
+  seed: 74
+  planet: cilistis
+  radius: 0.875
+  octaves: 1.28
+  persistence: 6.75
+  divisions: 4
+  scale: 2.25
+  mag: 1.225
+  }
+  {
+  type: NoiseMesh
+  color: 817c94
+  seed: 74
+  planet: cilistis
+  radius: 0.875
+  octaves: 1.28
+  persistence: 6.75
+  divisions: 4
+  scale: 2.25
+  mag: 1.225
+  }
+  //nest 
+  {
+  type: NoiseMesh
+  color: 7c9490
+  seed: 273
+  planet: cilistis
+  radius: 0.875
+  octaves: 1.5
+  persistence: 11
+  divisions: 4
+  scale: 2
+  mag: 1.225
+  }
+  {
+  type: NoiseMesh
+  color: 527a74
+  seed: 23456
+  planet: cilistis
+  radius: 0.875
+  octaves: 1.5
+  persistence: 11
+  divisions: 4
+  scale: 2
+  mag: 1.225
+  }
+  {
+  type: NoiseMesh
+  color: 99e6f7
+  seed: 837
+  planet: cilistis
+  radius: 0.875
+  octaves: 1.5
+  persistence: 11
+  divisions: 4
+  scale: 2
+  mag: 1.225
+  }
+  //pale 
+  {
+  type: NoiseMesh
+  color: b6b7b8
+  seed: 9413
+  planet: cilistis
+  radius: 0.874
+  octaves: 1.6
+  persistence: 11
+  divisions: 4
+  scale: 2
+  mag: 1.225
+  }
+  //astral 
+  {
+  type: NoiseMesh
+  color: 1e5997
+  seed: 457641
+  planet: cilistis
+  radius: 0.876
+  octaves: 1.5
+  persistence: 11
+  divisions: 4
+  scale: 2
+  mag: 1.225
+  }
+  {
+  type: NoiseMesh
+  color: 173f82
+  seed: 91453
+  planet: cilistis
+  radius: 0.874
+  octaves: 1.5
+  persistence: 11
+  divisions: 4
+  scale: 2
+  mag: 1.225
+  }
+  //voidscar 
+  {
+  type: NoiseMesh
+  color: 493152
+  seed: 0763
+  planet: cilistis
+  radius: 0.87525
+  octaves: 1.5
+  persistence: 11
+  divisions: 4
+  scale: 2
+  mag: 1.225
+  }
+  {
+  type: NoiseMesh
+  color: 2e1e40
+  seed: 734823654
+  planet: cilistis
+  radius: 0.87525
+  octaves: 1.5
+  persistence: 11
+  divisions: 4
+  scale: 2
+  mag: 1.225
+  }
+]
+generator: {
+  octaves: 3
+  persistence: 0.52
+  scale: 22
+  mag: 0.721
+  thresh: 1.152
+  min: 100
+  max: 100
+  radMin: 220
+  radMax: 600
+  iceChance: 0.51
+  carbonChance: 0.32
+  berylChance: 0
+  ferricChance: 0.26
+}
+alwaysUnlocked: true
+cloudMesh: [
+  //clockwise
+  {
+    type: HexSkyMesh
+    planet: cilistis
+    speed: 2.45
+    radius: 0.12
+    divisions: 6
+    color: c7cdc64d
+    octaves: 3
+    persistence: 0.3
+    scl: 1
+    thresh: 0.2
+  }
+  {
+    type: HexSkyMesh
+    planet: cilistis
+    speed: 6
+    radius: 0.1075
+    divisions: 6
+    color: c7cdc64d
+    octaves: 3
+    persistence: 0.3
+    scl: 0.9
+    thresh: 0.175
+    seed: 69
+  }
+  {
+    type: HexSkyMesh
+    planet: cilistis
+    speed: 20
+    radius: 0.135
+    divisions: 6
+    color: c7cdc64d
+    octaves: 3
+    persistence: 0.6
+    scl: 0.81
+    thresh: 0.0975
+    seed: 420
+  }
+  {
+    type: HexSkyMesh
+    planet: cilistis
+    speed: 55
+    radius: 0.15
+    divisions: 6
+    color: c7cdc633
+    octaves: 3
+    persistence: 0.6
+    scl: 0.0005
+    thresh: 0.2
+    seed: 67
+  }
+  {
+    type: HexSkyMesh
+    planet: cilistis
+    speed: 1
+    radius: 0.09
+    divisions: 6
+    color: c7cdc64d
+    octaves: 3
+    persistence: 0.6
+    scl: 1
+    thresh: 0.6
+    seed: 834
+  }
+  //counter clockwise
+  {
+    type: HexSkyMesh
+    planet: cilistis
+    speed: -2.45
+    radius: 0.121
+    divisions: 6
+    color: c7cdc64d
+    octaves: 3
+    persistence: 0.3
+    scl: 1
+    thresh: 0.225
+    seed: 3746
+  }
+  {
+    type: HexSkyMesh
+    planet: cilistis
+    speed: -6
+    radius: 0.1175
+    divisions: 6
+    color: c7cdc64d
+    octaves: 3
+    persistence: 0.3
+    scl: 0.9
+    thresh: 0.15
+    seed: 8346
+  }
+  {
+    type: HexSkyMesh
+    planet: cilistis
+    speed: -20
+    radius: 0.14
+    divisions: 6
+    color: c7cdc64d
+    octaves: 3
+    persistence: 0.6
+    scl: 0.81
+    thresh: 0.08725
+    seed: 15263
+  }
+  {
+    type: HexSkyMesh
+    planet: cilistis
+    speed: -55
+    radius: 0.1575
+    divisions: 6
+    color: c7cdc633
+    octaves: 3
+    persistence: 0.6
+    scl: 0.0005
+    thresh: 0.18
+    seed: 80085
+  }
+  {
+    type: HexSkyMesh
+    planet: cilistis
+    speed: -1
+    radius: 0.095
+    divisions: 6
+    color: c7cdc64d
+    octaves: 3
+    persistence: 0.6
+    scl: 1
+    thresh: 0.5
+    seed: 456
+  }
+]

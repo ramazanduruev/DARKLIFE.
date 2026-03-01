@@ -1,0 +1,15 @@
+{
+	color: 483561FF
+	hardness: 1
+ 
+    research: 01b-01-core-capsule
+	charge: 0.0
+	explosiveness: 0
+	flammability: 0
+	radioactivity: 0
+	cost: 3.5
+	hiddenOnPlanets: [
+		serpulo,
+		erekir
+	]
+}

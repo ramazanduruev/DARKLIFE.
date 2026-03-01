@@ -1,0 +1,4 @@
+type: floor,
+name: saltFloor,
+variants: 7,
+wall: saltWall

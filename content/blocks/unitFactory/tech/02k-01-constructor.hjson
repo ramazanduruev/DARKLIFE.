@@ -1,0 +1,31 @@
+{
+  type: unitFactory
+  health: 600
+  size: 3
+  researchCostMultiplier: 0.2
+  plans: [
+    {
+      unit: "03d-01-fin"
+        requirements: [
+           obsidian/40
+           solidSalt/50
+   ]
+      time: 1900
+     }
+]
+
+requirements: [
+    obsidian/180
+    solidSalt/120
+ ]
+  category: units
+  research: {
+  parent: 01b-01-core-capsule
+  objectives: [
+{
+type: SectorComplete
+preset: 01n-02-sharpCrystals
+  }
+ ]
+}
+}

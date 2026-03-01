@@ -1,0 +1,21 @@
+
+type: Router
+category: distribution
+health: 30
+size: 1
+capacity: 2
+drawTeamOverlay: false
+requirements: [
+obsidian/8
+]
+research: {
+parent: 01g-01-obsidianPipe
+objectives: [
+{
+type: SectorComplete
+preset: 01n-01-abandonedBase
+  }
+ ]
+}
+researchCostMultiplier: 0.3
+

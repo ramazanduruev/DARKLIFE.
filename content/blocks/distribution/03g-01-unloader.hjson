@@ -1,0 +1,17 @@
+type: Unloader
+health: 20
+capacity: 0
+research: {
+  parent: 01b-01-core-capsule
+}
+researchCost: [
+  solidSalt/200
+  flesh/10
+] 
+requirements: [
+obsidian/20
+crystal/8
+] 
+category: effect
+
+

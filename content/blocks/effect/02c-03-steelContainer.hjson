@@ -1,0 +1,18 @@
+{
+
+type: StorageBlock
+itemCapacity: 100
+hasItems: true
+health: 280
+size: 2
+requirements: [
+steel/25
+]
+category: effect
+research: {
+      parent: 02c-01-lamp
+       requirements: [
+       steel/250
+  ]
+ }
+}

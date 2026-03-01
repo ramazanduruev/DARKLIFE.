@@ -1,0 +1,15 @@
+
+planet: cilistis
+sector: 95
+research: 01b-01-core-capsule
+difficulty: 3
+alwaysUnlocked: false
+research: {
+parent: 01n-02-sharpCrystals
+objectives: [
+{
+type: SectorComplete
+preset: 01n-02-sharpCrystals
+  }
+ ]
+}

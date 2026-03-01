@@ -1,0 +1,8 @@
+captureWave: 5
+planet: cilistis
+sector: 0
+difficulty: 1
+alwaysUnlocked: true
+research: {
+parent: 01b-01-core-capsule
+}

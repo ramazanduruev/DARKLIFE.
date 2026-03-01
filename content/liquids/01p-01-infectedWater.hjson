@@ -1,0 +1,24 @@
+type: CellLiquid
+color: 663636FF
+colorFrom: 663636FF
+colorTo: C46868FF
+gasColor: 8C4A4AFF
+boilPoint: 999
+heatCapacity: 1.1
+temperature: -0.65
+//comedy
+viscosity: 0.69
+explosiveness: 0.75
+research: {
+  parent: 01b-01-core-capsule
+}
+barColor: C46868FF
+spreadTarget: water
+canStayOn: [water]
+capPuddles: false
+cells: 9
+spreadDamage: 0.6
+maxSpread: 10
+spreadConversion: 3
+removeScaling: 0
+effect: 01h-02-infection

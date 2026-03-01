@@ -1,0 +1,9 @@
+{
+  type: conduit
+  category: liquid
+  health: 200
+  liquidPressure: 2
+  requirements: [
+  flesh/200
+   ]
+}

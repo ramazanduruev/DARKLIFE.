@@ -1,0 +1,15 @@
+{
+	color: E6E5DAFF
+	hardness: 1
+ name: iron
+    research: solidCial
+	charge: 0
+	explosiveness: 0
+	flammability: 0
+	radioactivity: 0
+	cost: 3.5
+	hiddenOnPlanets: [
+		serpulo,
+		erekir
+	]
+}

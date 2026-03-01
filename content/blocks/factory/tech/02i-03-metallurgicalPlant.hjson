@@ -1,0 +1,53 @@
+type: GenericCrafter
+size: 3
+category: crafting
+craftEffect: heatReactorSmoke
+requirements: [
+ obsidian/120
+ crystal/85
+ iron/40
+ clay/20
+]
+consumes: {
+  power: 3.4
+  items: [
+  iron/2
+  solidCoal/4
+  ]
+}
+craftTime: 120
+outputItem:steel/2
+research: {
+    planet: cilistis
+	parent: 02i-02-filter
+	requirements: [
+	obsidian/600
+ solidSalt/220
+ crystal/400
+ iron/60
+ clay/20
+	]
+}
+drawer: {
+      type: DrawMulti
+      drawers: [	
+      {
+          type: DrawRegion
+		  suffix: -bottom
+    layerOffset: -0.02
+          }
+		{
+type: DrawPlasma
+plasmas: 4
+plasma1: DCC6C6FF
+plasma2: DCC6C6FF
+plasma3: DCC6C6FF
+plasma4: DCC6C6FF
+layerOffset: -0.01
+}
+
+		  {
+		  type: DrawDefault
+		  }
+      ]
+    }

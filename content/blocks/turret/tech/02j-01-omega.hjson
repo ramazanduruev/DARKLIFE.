@@ -1,0 +1,104 @@
+{
+  ammoTypes:{
+    obsidian:{
+      x: 0
+      y: -6
+      damage: 20
+      buildingDamageMultiplier: 0.5
+      hitColor: 534469FF
+      hitEffect: airBubble
+      shootEffect: airBubble
+      width: 7
+      height: 5
+      range: 140
+      speed: 6
+      type: BasicBulletType
+      trailColor: 534469FF
+				  	trailChance: -1
+				  	trailWidth: 3.5
+					  trailLength: 20
+}
+   solidSalt:{
+      x: 0
+      y: -6
+      damage: 25
+      buildingDamageMultiplier: 0.6
+      hitColor: EBEBEBFF
+      hitEffect: airBubble
+      shootEffect: airBubble
+      width: 7
+      height: 5
+      range: 140
+      speed: 4
+      type: BasicBulletType
+      trailColor: EBEBEBFF
+				  	trailChance: -1
+				  	trailWidth: 3.5
+					  trailLength: 20
+       status: 01h-01-bleeding
+					  statusDuration: 400
+
+  }
+steel:{
+      x: 0
+      y: -6
+      damage: 60
+      buildingDamageMultiplier: 0.2
+      hitColor: 43434FFF
+      hitEffect: airBubble
+      shootEffect: airBubble
+      width: 7
+      height: 5
+      range: 140
+      speed: 3
+      type: BasicBulletType
+      trailColor: 43434FFF
+				  	trailChance: -1
+				  	trailWidth: 2.5
+					  trailLength: 30
+       status: sapped
+					  statusDuration: 180
+
+  }
+ }
+shoot: {
+ type: ShootBarrel
+ shotDelay: 3
+    barrels: [
+    1, -6, 0,
+    0, -6, 0,
+    0, -6, 0,
+    -1, -6, 0
+    ]
+}
+   requirements: [
+    obsidian/40
+]
+
+research: {
+  parent: 01b-01-core-capsule
+}
+researchCost: [
+  obsidian/60
+] 
+
+consumes: {
+  }
+  reload: 70
+  range: 140
+  shootEffect: casing1
+  category: turret
+  health: 540
+  size: 3
+  itemCapacity: 15
+  hasLiquids: false
+  type: ItemTurret
+  shootSound: shootMissilePlasma
+  outlineColor: 272736FF
+  drawTeamOverlay: false
+
+drawer: {
+      type: DrawTurret
+      basePrefix: stone-
+ }
+}

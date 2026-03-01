@@ -1,0 +1,21 @@
+type: LightBlock
+health: 60
+size: 1
+category: effect
+requirements: [
+obsidian/30
+ ]
+squareSprite: false
+brightness: 0.9
+radius: 90
+drawTeamOverlay: false
+researchCostMultiplier: 0.8
+consumes: {
+  power: 0.3
+}
+research: {
+  parent: 01b-01-core-capsule
+}
+researchCost: [
+  obsidian/5
+] 

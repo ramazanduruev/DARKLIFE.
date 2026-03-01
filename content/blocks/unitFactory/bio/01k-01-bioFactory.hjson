@@ -1,0 +1,26 @@
+{
+  type: unitFactory
+  size: 3
+  health: 600
+  plans: [
+    {
+      unit: "02d-03-remainder"
+        requirements: [
+           flesh/15
+   ]
+      time: 1200
+     }
+     {
+      unit: "02d-04-bone"
+        requirements: [
+           flesh/30
+   ]
+      time: 2400
+     }
+]
+
+requirements: [
+    flesh/400
+ ]
+  category: units
+}

@@ -1,0 +1,19 @@
+{
+"name": "mo",
+"displayName": "DarkLife",
+"description":
+  '''
+This mod add new planet and more new content
+
+Developer: Votak (abzobua)
+Helper: Tekta_Ru
+
+language
+English
+Русский
+  '''
+"author": "Votak",
+"version": "0.2",
+"minGameVersion": 156,
+"subtitle": "alpha v0.2"
+}
